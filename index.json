@@ -1,6 +1,6 @@
 {
-  "visuals": {
-    "name": "Visuals",
+  "panels": {
+    "name": "Panels",
     "description": "",
     "panels": {
       "mmalex/zone_plate": {
