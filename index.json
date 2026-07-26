@@ -37,5 +37,10 @@
         "_native_grid_compile_hash": "f59f491eeeeb926ab03b811c6ab6bd63a150041059647f560ab59e22840f88f5"
       }
     }
+  },
+  "_authors": {
+    "mmalex": {
+      "_readme": "COMMUNITY_PANELS/mmalex/README.md"
+    }
   }
 }
