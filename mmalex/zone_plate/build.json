@@ -1,0 +1,16 @@
+{
+  "schema": "community-native-bundle-v1",
+  "artifactKey": "ffed8131ec092761ce42329aefb48431700d5b4116347a6792bd69bfc2c8708c",
+  "artifactSha256": "6cd0dae28900ff3ecd64fea2b7d65ff0d5a55a84451401cdc05af0940e8ca9d9",
+  "baseSha256": "5c0bfd652e134db78057dc97003e0acd8b6fa2d740451536b034fbe4367f9aeb",
+  "bundle": [
+    "grid",
+    "mmalex/zone_plate"
+  ],
+  "sourceSha1": "6f4855b597f185a2bbf4888be550e509832d4b38",
+  "panelCompileHash": "c0bc13b9cd229e569a0256bc8a6e9760b304965d57c4a7cbd90b46ac54766e2b",
+  "gridCompileHash": "f59f491eeeeb926ab03b811c6ab6bd63a150041059647f560ab59e22840f88f5",
+  "linkHash": "1da9fb9515372d9229e7db0e8d9c1a7d197808470604fa75dccc0a2128dc0347",
+  "source": "community-panels/mmalex/zone_plate/zone_plate.cpp",
+  "builtAt": "2026-07-26T12:34:39+00:00"
+}

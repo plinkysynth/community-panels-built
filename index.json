@@ -1,0 +1,40 @@
+{
+  "visuals": {
+    "name": "Visuals",
+    "description": "",
+    "panels": {
+      "mmalex/zone_plate": {
+        "Author": "mmalex",
+        "Documentation": "https://github.com/plinkysynth/community-panels/tree/main/mmalex/zone_plate",
+        "Category": "Visuals",
+        "Tags": "leds, animation, rgb",
+        "_artwork_multiply": "true",
+        "name": "Zone Plate",
+        "description": "Slowly scrolling RGB zone plates over the 16x16 LEDs.",
+        "_library_kind": "community",
+        "_cpp": "COMMUNITY_PANELS/mmalex/zone_plate/zone_plate.cpp",
+        "_source_sha1": "6f4855b597f185a2bbf4888be550e509832d4b38",
+        "_panel_name": "zone_plate",
+        "_source": "community-panels/mmalex/zone_plate/zone_plate.cpp",
+        "_author_slug": "mmalex",
+        "_panel_slug": "zone_plate",
+        "_community_id": "mmalex/zone_plate",
+        "_community_path": "community/mmalex/zone_plate/",
+        "artwork": "COMMUNITY_PANELS/mmalex/zone_plate/artwork.webp",
+        "_lzma": "COMMUNITY_PANELS/mmalex/zone_plate/zone_plate.ffed8131ec092761.bin.lzma",
+        "_native_artifact_sha256": "6cd0dae28900ff3ecd64fea2b7d65ff0d5a55a84451401cdc05af0940e8ca9d9",
+        "_native_artifact_key": "ffed8131ec092761ce42329aefb48431700d5b4116347a6792bd69bfc2c8708c",
+        "_native_link_hash": "1da9fb9515372d9229e7db0e8d9c1a7d197808470604fa75dccc0a2128dc0347",
+        "_native_base_sha256": "5c0bfd652e134db78057dc97003e0acd8b6fa2d740451536b034fbe4367f9aeb",
+        "_native_bundle": [
+          "grid",
+          "mmalex/zone_plate"
+        ],
+        "_native_source_sha1": "6f4855b597f185a2bbf4888be550e509832d4b38",
+        "_native_artifact_status": "current",
+        "_native_compile_hash": "c0bc13b9cd229e569a0256bc8a6e9760b304965d57c4a7cbd90b46ac54766e2b",
+        "_native_grid_compile_hash": "f59f491eeeeb926ab03b811c6ab6bd63a150041059647f560ab59e22840f88f5"
+      }
+    }
+  }
+}
