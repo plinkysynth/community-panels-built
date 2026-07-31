@@ -11,7 +11,6 @@
       "mmalex/looper": {
         "Author": "mmalex",
         "Tags": "looper, microphone, psram, transport, multitouch",
-        "Documentation": "https://github.com/plinkysynth/plinky12/blob/main/web/site/examples/looper.md",
         "name": "Looper",
         "description": "An 8-track touch looper backed by PSRAM.",
         "_library_kind": "community",
@@ -44,7 +43,6 @@
         "Author": "mmalex",
         "Date": "2026-07-29",
         "Tags": "mpe, synth, multitouch, preset, midi",
-        "Documentation": "https://github.com/plinkysynth/plinky12/blob/main/web/site/examples/mpe_test.cpp",
         "name": "MPE Test",
         "description": "This is a test of MPE input and output for Plinky 12. It presents as two large play surfaces, each with a dedicated brightness (CC74) slider which is mapped to Plinky's sample-start / wavetable-position parameter. It accepts normal MIDI on channels 1 and 16 for the two sounds, as well as MPE for up to two zones, supporting per-note pitch bend, brightness, and pressure. It also sends data in MPE format. The mode pads below the play surfaces open the usual synth edit and preset load/save pages, using the same parameter order as Toadstep and Blocks. This is a first test of MPE on Plinky 12, and sets the stage for adding MPE support to other panels. Code is available in the IDE.",
         "_library_kind": "community",
@@ -75,7 +73,6 @@
       "mmalex/worm": {
         "Author": "mmalex",
         "Tags": "granular, sampler, psram, multitouch, effects",
-        "Documentation": "https://github.com/plinkysynth/plinky12/blob/main/web/site/examples/worm.md",
         "name": "Worm",
         "description": "A pressure-driven granular sampler backed by PSRAM.",
         "_library_kind": "community",
