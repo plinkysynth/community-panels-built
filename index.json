@@ -1,4 +1,9 @@
 {
+  "_authors": {
+    "mmalex": {
+      "_readme": "COMMUNITY_PANELS/mmalex/README.md"
+    }
+  },
   "panels": {
     "name": "Panels",
     "description": "",
@@ -21,6 +26,7 @@
         "_panel_slug": "zone_plate",
         "_community_id": "mmalex/zone_plate",
         "_community_path": "community/mmalex/zone_plate/",
+        "_author_readme": "COMMUNITY_PANELS/mmalex/README.md",
         "artwork": "COMMUNITY_PANELS/mmalex/zone_plate/artwork.webp",
         "_lzma": "COMMUNITY_PANELS/mmalex/zone_plate/zone_plate.a49221d4662f4c06.bin.lzma",
         "_native_artifact_sha256": "6cd0dae28900ff3ecd64fea2b7d65ff0d5a55a84451401cdc05af0940e8ca9d9",
@@ -36,11 +42,6 @@
         "_native_compile_hash": "af3f073394e432b8b79620fb769ec1f15fd19b78c3556a59ddecc178c10faa44",
         "_native_grid_compile_hash": "f59f491eeeeb926ab03b811c6ab6bd63a150041059647f560ab59e22840f88f5"
       }
-    }
-  },
-  "_authors": {
-    "mmalex": {
-      "_readme": "COMMUNITY_PANELS/mmalex/README.md"
     }
   }
 }
