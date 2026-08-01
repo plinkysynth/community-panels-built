@@ -1,16 +1,16 @@
 {
   "schema": "community-native-bundle-v1",
-  "artifactKey": "72f19c84fc378359b5e106351696972308119151af0a4093e81c833ac6ebb8f0",
-  "artifactSha256": "e671283f57b29c6e44e0d51031ce57ab5302f73d4ac7747052431ae4fef73be1",
-  "baseSha256": "80ff8bd7844a6bf91232a5cd7cd95eb9878563287ec8795e9fc28562e8408657",
+  "artifactKey": "4225048b11ef6cf7e45b5b190ce9d0cbc90025da39271c592157ee9352557c9a",
+  "artifactSha256": "381254333590ec38a28c75d5f0c8a59fa9921dc5580cf3ca83407128c822cca2",
+  "baseSha256": "ce81f8808a0caa75fb1866ebe15e0ae002b746b9abb2d5899960680c2769d716",
   "bundle": [
     "grid",
     "mmalex/worm"
   ],
   "sourceSha1": "a298091cf72955ec9ba5d0e24dccc970d3b37f82",
-  "panelCompileHash": "6bef668e0289171e619eb9ae2a5108e1e9efc6ddb976862151510cbfa7b163f2",
-  "gridCompileHash": "edd9a9be8e8083324561c8b4d1c330d8fdc564d94e72a1e1c12b990a76a2a43b",
-  "linkHash": "2022568028f105813c2e2e0cd7303d5f6ea037e67e2375ceeaf56a0ed8372ed6",
+  "panelCompileHash": "1724eae004bd6fa19164643b6369eb3d5bec4da34bbd05bbfb45f9e6ea46a60b",
+  "gridCompileHash": "dd9da7bfd36b07a972662ceccd42318b9eaa32ba9eb018ad3f99bab97180f4db",
+  "linkHash": "9fbed1488242028b8066476caa6232c8799891d9c832bb912c90e16939afb7f4",
   "source": "web/site/examples/worm.cpp",
-  "builtAt": "2026-08-01T11:01:43+00:00"
+  "builtAt": "2026-08-01T18:42:55+00:00"
 }

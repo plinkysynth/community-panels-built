@@ -1,16 +1,16 @@
 {
   "schema": "community-native-bundle-v1",
-  "artifactKey": "f4a11d067c981374ab03f71227d935dfa43f4bb7d2581e2af973bff2d56d2780",
-  "artifactSha256": "f48d4d681caa6eff98e44bd318a0b680b3848e513cf89391b6897881ae88d8e9",
-  "baseSha256": "80ff8bd7844a6bf91232a5cd7cd95eb9878563287ec8795e9fc28562e8408657",
+  "artifactKey": "02a6b55bb64a0dd451fc3c8a63adf72a739b9facbc54b218e1b6c1f5291f1fa6",
+  "artifactSha256": "04ed8618f1832afd0d6f3778d647c04012996052c69e2c9edaac77393d7a212e",
+  "baseSha256": "ce81f8808a0caa75fb1866ebe15e0ae002b746b9abb2d5899960680c2769d716",
   "bundle": [
     "grid",
     "charlesvestal/ambiotica"
   ],
-  "sourceSha1": "5bae7b733c1169769b3b08bcaa089723ecdaf1e8",
-  "panelCompileHash": "489ccaf0cee712998c49f346a9b1ecf9b1b91010a7ae64821ea30272b458eaee",
-  "gridCompileHash": "edd9a9be8e8083324561c8b4d1c330d8fdc564d94e72a1e1c12b990a76a2a43b",
-  "linkHash": "b0c62d1ecaccd96563f74c404c021f3c8abfe9f18aaefd6650d5efb4050e6f7f",
+  "sourceSha1": "45bc1a0c493db8164827a4a5c2b2d16412903cec",
+  "panelCompileHash": "1dbbed97e72f1858f34d773009322d5999efa60128a920ff04fd7fb5c19685a0",
+  "gridCompileHash": "dd9da7bfd36b07a972662ceccd42318b9eaa32ba9eb018ad3f99bab97180f4db",
+  "linkHash": "806a6e7e07aa209814bfef57b1a26a0248ce1c3599d9fac3950be46572408d5e",
   "source": "community-panels/charlesvestal/ambiotica/ambiotica.cpp",
-  "builtAt": "2026-08-01T11:01:36+00:00"
+  "builtAt": "2026-08-01T18:42:48+00:00"
 }

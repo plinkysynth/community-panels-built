@@ -2,7 +2,7 @@
 @Name: Zone Plate
 @Author: mmalex
 @Documentation: https://github.com/plinkysynth/community-panels/tree/main/mmalex/zone_plate
-@Tags: leds, animation, rgb
+@Tags: visuals
 @Preferred Panels: all
 @_artwork_multiply: true
 @Description: Slowly scrolling RGB zone plates over the 16x16 LEDs.
