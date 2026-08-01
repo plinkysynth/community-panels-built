@@ -63,9 +63,12 @@ struct mpe_test : panel_t {
   void setup_default_panel_state() override {
     panel_t::setup_default_panel_state();
     printf("mpe_test: setup_default_panel_state\n");
-    voice_allocator = voice_allocator_t{};
-    mpe = mpe_output_t{};
-    mpe_input = mpe_input_t{};
+    memset(&voice_allocator, 0, sizeof(voice_allocator));
+    memset(&mpe, 0, sizeof(mpe));
+    mpe.generation_now = 1;
+    mpe.setup_dual_zone();
+    mpe_input.clear();
+    mpe_input.setup_dual_zone();
     brightness[0] = 64;
     brightness[1] = 64;
     for (int track = 0; track < TRACKS; ++track)

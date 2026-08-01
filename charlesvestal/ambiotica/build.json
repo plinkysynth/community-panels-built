@@ -1,0 +1,16 @@
+{
+  "schema": "community-native-bundle-v1",
+  "artifactKey": "f4a11d067c981374ab03f71227d935dfa43f4bb7d2581e2af973bff2d56d2780",
+  "artifactSha256": "f48d4d681caa6eff98e44bd318a0b680b3848e513cf89391b6897881ae88d8e9",
+  "baseSha256": "80ff8bd7844a6bf91232a5cd7cd95eb9878563287ec8795e9fc28562e8408657",
+  "bundle": [
+    "grid",
+    "charlesvestal/ambiotica"
+  ],
+  "sourceSha1": "5bae7b733c1169769b3b08bcaa089723ecdaf1e8",
+  "panelCompileHash": "489ccaf0cee712998c49f346a9b1ecf9b1b91010a7ae64821ea30272b458eaee",
+  "gridCompileHash": "edd9a9be8e8083324561c8b4d1c330d8fdc564d94e72a1e1c12b990a76a2a43b",
+  "linkHash": "b0c62d1ecaccd96563f74c404c021f3c8abfe9f18aaefd6650d5efb4050e6f7f",
+  "source": "community-panels/charlesvestal/ambiotica/ambiotica.cpp",
+  "builtAt": "2026-08-01T11:01:36+00:00"
+}

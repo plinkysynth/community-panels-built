@@ -1,16 +1,16 @@
 {
   "schema": "community-native-bundle-v1",
-  "artifactKey": "54aded143076658af6c09764f5628d2a6e12dd71fab90872382ecd8137c757b5",
-  "artifactSha256": "c0607c26a3729f217dbff20427a257dad7b41e55dc8ea24b54cdb10a3b58a4bc",
-  "baseSha256": "8f44e7319847a0e168abb3b8b386f7513303dbe96ee301f4a526c78d9e00c0fc",
+  "artifactKey": "333a38de49cfabbd14c435eb836e0edbcd9c9efb86b35afa14b0f3f391f10a2b",
+  "artifactSha256": "376229473d7cfea5820c2168c83d589fabd9592292cf21fa2088348e149cffe8",
+  "baseSha256": "80ff8bd7844a6bf91232a5cd7cd95eb9878563287ec8795e9fc28562e8408657",
   "bundle": [
     "grid",
     "mmalex/mpe_test"
   ],
-  "sourceSha1": "c72d83807e0f0ab03729ab752de58b5360b0ba8c",
-  "panelCompileHash": "3aa0d2df857685c5406010bec64dd343d92300b42f9aaf2db7917fe03128e006",
-  "gridCompileHash": "b02cac0ad4b86eeaf6a20696d4af655cecdf28d149b89f4162760a64522cc3ff",
-  "linkHash": "2aae1ee78e87f487fd37b98bbbb2455b3b2ee1a34d46736e542e1e4bdc83573e",
+  "sourceSha1": "d0fd79c6ed0894f284345fc9149940eddf5ffd83",
+  "panelCompileHash": "3702b6cf6bd080529813ae364a1e0a42becc9ac6d5fef383d67f4fc02438a63f",
+  "gridCompileHash": "edd9a9be8e8083324561c8b4d1c330d8fdc564d94e72a1e1c12b990a76a2a43b",
+  "linkHash": "16075739742962571b5ba410a172571f7829e4949a5e7c3997b63136c45279da",
   "source": "web/site/examples/mpe_test.cpp",
-  "builtAt": "2026-07-31T21:13:19+00:00"
+  "builtAt": "2026-08-01T11:01:41+00:00"
 }

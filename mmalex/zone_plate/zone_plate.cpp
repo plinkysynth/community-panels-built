@@ -2,7 +2,6 @@
 @Name: Zone Plate
 @Author: mmalex
 @Documentation: https://github.com/plinkysynth/community-panels/tree/main/mmalex/zone_plate
-@Category: Visuals
 @Tags: leds, animation, rgb
 @Preferred Panels: all
 @_artwork_multiply: true
