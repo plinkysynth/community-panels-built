@@ -63,19 +63,19 @@
         "_readme": "COMMUNITY_PANELS/mmalex/looper/README.md",
         "_author_readme": "COMMUNITY_PANELS/mmalex/README.md",
         "artwork": "COMMUNITY_PANELS/mmalex/looper/artwork.png",
-        "_lzma": "COMMUNITY_PANELS/mmalex/looper/looper.7e38f6973d7818d1.bin.lzma",
-        "_native_artifact_sha256": "da228f24b26c1270ef859d7b936c6d0709031615aaea4cbb3f4c27838041e3dd",
-        "_native_artifact_key": "7e38f6973d7818d1e457075f68e90ccada065fe18f1d2609889de1a99dfdb128",
-        "_native_link_hash": "98b114daf26e5002d0046cd699cd475a7e1f8b1ccb8dd681cc81609c792bf72f",
-        "_native_base_sha256": "8cb5cd3c53e9788047611ddcaeae0c1648753095f50c720a8b48b5c75ace019b",
+        "_lzma": "COMMUNITY_PANELS/mmalex/looper/looper.fd94657cc1b02b63.bin.lzma",
+        "_native_artifact_sha256": "29f00800471d499be6ebb1836c1abc482881414d6d96e0bec87ff00fabd81441",
+        "_native_artifact_key": "fd94657cc1b02b63991a3dd83f85c2c7020e5376cb1d726bb3f43ec6f6262a77",
+        "_native_link_hash": "9361d93a05a03c9f27afaea98502bfb4ec5174e02993f04bd09c902eb10325a1",
+        "_native_base_sha256": "24d3adb73ab584581b944fc21abb04aacffebf75c9c2187dd1580dd6545d4dc8",
         "_native_bundle": [
           "grid",
           "mmalex/looper"
         ],
         "_native_source_sha1": "59a91e7f7b206b5bd953a97fd4d2a24381c661cd",
         "_native_artifact_status": "current",
-        "_native_compile_hash": "e481f16655d6fb6b6a7411a3bffc5b7f2efd64d9997f2d99dfaaa4274a8b5d39",
-        "_native_grid_compile_hash": "3f5234f001f1c7e0ae8cc00d1e9782c68ec4005585acae445aa37930230fb91b"
+        "_native_compile_hash": "c2f9c964b856c015e59f823394f64d8beec0a0f65db58b6d1a57b37ea9415b9a",
+        "_native_grid_compile_hash": "599bcca5ead3be6e87d7c872b6012e1705a42f504c38d8e621afbbfa18d123d8"
       },
       "mmalex/mpe_test": {
         "Author": "mmalex",
@@ -95,19 +95,19 @@
         "_readme": "COMMUNITY_PANELS/mmalex/mpe_test/README.md",
         "_author_readme": "COMMUNITY_PANELS/mmalex/README.md",
         "artwork": "COMMUNITY_PANELS/mmalex/mpe_test/artwork.png",
-        "_lzma": "COMMUNITY_PANELS/mmalex/mpe_test/mpe_test.8050f2853cd0cd49.bin.lzma",
-        "_native_artifact_sha256": "714cfc9e06599b911009f1bd7d85ec47374c27e2bf3878aed5927cedbf20f057",
-        "_native_artifact_key": "8050f2853cd0cd491d3a1fa3e05a5f93d2ab24a5cfa5c7061844309c39a11572",
-        "_native_link_hash": "7eb7ef9041f59e16e0bedeccaf2ce9f440634715fc773f8045071129b2f8a38a",
-        "_native_base_sha256": "8cb5cd3c53e9788047611ddcaeae0c1648753095f50c720a8b48b5c75ace019b",
+        "_lzma": "COMMUNITY_PANELS/mmalex/mpe_test/mpe_test.50a5390e3594916d.bin.lzma",
+        "_native_artifact_sha256": "69eee96a8e0ec608f0862f65b43e7d39304213390a89216e9d8060f40535a8d4",
+        "_native_artifact_key": "50a5390e3594916d5d7801ac1c09dab478d48ba446850d17cb65e7d37db33bf1",
+        "_native_link_hash": "1c77a2ae6fb205a31bd4843b0c16d569c00cf8fe36e4771842e0a08b4fcda6b5",
+        "_native_base_sha256": "24d3adb73ab584581b944fc21abb04aacffebf75c9c2187dd1580dd6545d4dc8",
         "_native_bundle": [
           "grid",
           "mmalex/mpe_test"
         ],
         "_native_source_sha1": "2797507e2153f183bb428f915297127a6f3e1f90",
         "_native_artifact_status": "current",
-        "_native_compile_hash": "e12b4aac97bb399903257a18048bf09ed02d16c442bacba49b90914ed5d7c5ba",
-        "_native_grid_compile_hash": "3f5234f001f1c7e0ae8cc00d1e9782c68ec4005585acae445aa37930230fb91b"
+        "_native_compile_hash": "d5164e3c044ced64e29f42ab04430858bde7bc65192e7fc97a504ab92eb2688c",
+        "_native_grid_compile_hash": "599bcca5ead3be6e87d7c872b6012e1705a42f504c38d8e621afbbfa18d123d8"
       },
       "mmalex/worm": {
         "Author": "mmalex",
@@ -126,19 +126,19 @@
         "_readme": "COMMUNITY_PANELS/mmalex/worm/README.md",
         "_author_readme": "COMMUNITY_PANELS/mmalex/README.md",
         "artwork": "COMMUNITY_PANELS/mmalex/worm/artwork.webp",
-        "_lzma": "COMMUNITY_PANELS/mmalex/worm/worm.58c4709842aca8fd.bin.lzma",
-        "_native_artifact_sha256": "5657d53e90e72e4c145e85a1b0e45c75272e9034d11b0d03b3685205365d3fc9",
-        "_native_artifact_key": "58c4709842aca8fd325357a6552abedffcbed15edfc7fe4ec4e049577c605dbd",
-        "_native_link_hash": "386377ca14afec41ad2b83d5fd01522001510f7ed88d03fc812a5f6a338220c7",
-        "_native_base_sha256": "8cb5cd3c53e9788047611ddcaeae0c1648753095f50c720a8b48b5c75ace019b",
+        "_lzma": "COMMUNITY_PANELS/mmalex/worm/worm.80de33f3fc565105.bin.lzma",
+        "_native_artifact_sha256": "c58d6e80daa49d7b3a22ce021af59554847cd29efbec6cacb5b8fce1df70f6e2",
+        "_native_artifact_key": "80de33f3fc565105c4316e021c78ea53e3c1ac8224e0a9e7529949b1345c3b31",
+        "_native_link_hash": "a37ab3019e29960b74c411e38ea256a0c81446865de6d5b3cccb53c4f2511b22",
+        "_native_base_sha256": "24d3adb73ab584581b944fc21abb04aacffebf75c9c2187dd1580dd6545d4dc8",
         "_native_bundle": [
           "grid",
           "mmalex/worm"
         ],
         "_native_source_sha1": "168927146642716bbc227f2b735eb078e56268a3",
         "_native_artifact_status": "current",
-        "_native_compile_hash": "7f29c3db8c07e6d445d0cc9e313088ad4d6c180bea76dd80e58be0f158f6bd97",
-        "_native_grid_compile_hash": "3f5234f001f1c7e0ae8cc00d1e9782c68ec4005585acae445aa37930230fb91b"
+        "_native_compile_hash": "183f2ec9b7ccbeadf8d1e0a360fc60c12a93467ab84088d8860c500bcf668b8c",
+        "_native_grid_compile_hash": "599bcca5ead3be6e87d7c872b6012e1705a42f504c38d8e621afbbfa18d123d8"
       },
       "mmalex/zone_plate": {
         "Author": "mmalex",
