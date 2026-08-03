@@ -1,16 +1,16 @@
 {
   "schema": "community-native-bundle-v1",
-  "artifactKey": "cf93fcfea0cffafbbeeb6b86ed18f197e8c26cc6e60386754f458d34002ffa82",
-  "artifactSha256": "2d63dedd4fe89b21194a80d76907c856b9f68b090c8ab8ad86a54c5b9004743a",
-  "baseSha256": "ce81f8808a0caa75fb1866ebe15e0ae002b746b9abb2d5899960680c2769d716",
+  "artifactKey": "8050f2853cd0cd491d3a1fa3e05a5f93d2ab24a5cfa5c7061844309c39a11572",
+  "artifactSha256": "714cfc9e06599b911009f1bd7d85ec47374c27e2bf3878aed5927cedbf20f057",
+  "baseSha256": "8cb5cd3c53e9788047611ddcaeae0c1648753095f50c720a8b48b5c75ace019b",
   "bundle": [
     "grid",
     "mmalex/mpe_test"
   ],
-  "sourceSha1": "d0fd79c6ed0894f284345fc9149940eddf5ffd83",
-  "panelCompileHash": "034d6e133da48b80f72d3a73323f66652c424c99729c084bdf1a1acfb311046c",
-  "gridCompileHash": "dd9da7bfd36b07a972662ceccd42318b9eaa32ba9eb018ad3f99bab97180f4db",
-  "linkHash": "543c7c579af4c16014f83fd79894f8556026bf9ce9080783a8622ed56f0225e2",
-  "source": "web/site/examples/mpe_test.cpp",
-  "builtAt": "2026-08-01T18:42:53+00:00"
+  "sourceSha1": "2797507e2153f183bb428f915297127a6f3e1f90",
+  "panelCompileHash": "e12b4aac97bb399903257a18048bf09ed02d16c442bacba49b90914ed5d7c5ba",
+  "gridCompileHash": "3f5234f001f1c7e0ae8cc00d1e9782c68ec4005585acae445aa37930230fb91b",
+  "linkHash": "7eb7ef9041f59e16e0bedeccaf2ce9f440634715fc773f8045071129b2f8a38a",
+  "source": "community-panels/mmalex/mpe_test/mpe_test.cpp",
+  "builtAt": "2026-08-03T17:48:52+00:00"
 }

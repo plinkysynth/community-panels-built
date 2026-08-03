@@ -1,16 +1,16 @@
 {
   "schema": "community-native-bundle-v1",
-  "artifactKey": "4d20f5b071bb55b97260c400bce34e9a60a2b7eaaab4e8fa92aab3e5222795b8",
-  "artifactSha256": "645464da69ecc2aaad71d6dec9f28b9d89c9ee29c12b6664052878f77c946e1b",
-  "baseSha256": "ce81f8808a0caa75fb1866ebe15e0ae002b746b9abb2d5899960680c2769d716",
+  "artifactKey": "323a2f609bb41f29b9ae3956be679474c831804e22085698612076f875939a68",
+  "artifactSha256": "942d38d90d38d76917ecf49d39138fe643e3ef6c60efc2737776b1948644866e",
+  "baseSha256": "8cb5cd3c53e9788047611ddcaeae0c1648753095f50c720a8b48b5c75ace019b",
   "bundle": [
     "grid",
     "mmalex/zone_plate"
   ],
   "sourceSha1": "bad453cffa64f53794c090b62877b6373262721e",
-  "panelCompileHash": "77c101319ec07f3b7a290557e2c1cb20647aeab730227053f41a5317072fabb4",
-  "gridCompileHash": "dd9da7bfd36b07a972662ceccd42318b9eaa32ba9eb018ad3f99bab97180f4db",
-  "linkHash": "9535037529817d760b7db2aaa3514a62b4d2fb26b9696dec2a5a2b91af25af7e",
+  "panelCompileHash": "ddad836556bf2cd73236b2120e9738511564dd0c61c1d549f40cb9dc57406ad7",
+  "gridCompileHash": "3f5234f001f1c7e0ae8cc00d1e9782c68ec4005585acae445aa37930230fb91b",
+  "linkHash": "09a9985e4e69d30a7c41eff697b835bbdf332e9da09f2068e286bb63887fbad5",
   "source": "community-panels/mmalex/zone_plate/zone_plate.cpp",
-  "builtAt": "2026-08-01T18:42:55+00:00"
+  "builtAt": "2026-08-03T17:48:55+00:00"
 }

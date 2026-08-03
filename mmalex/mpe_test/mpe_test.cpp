@@ -1,21 +1,17 @@
+// Generated from a Plinky 12 built-in example by scripts/update_community_panel_builds.sh.
 /*
 @Name: MPE Test
 @Author: mmalex
 @Date: 2026-07-29
-@Level: Intermediate
-@Artwork: pixel/P12ExampleMPE.png
-@Tags: mpe, synth, multitouch, preset
-@Description: This is a test of MPE input and output for Plinky 12.
-  It presents as two large play surfaces, each with a dedicated brightness
-  (CC74) slider which is mapped to Plinky's sample-start /
-  wavetable-position parameter. It accepts normal MIDI on
-  channels 1 and 16 for the two sounds, as well as
-  MPE for up to two zones, supporting per-note pitch bend, brightness, and
-  pressure. It also sends data in MPE format. The mode pads below the play
-  surfaces open the usual synth edit and preset load/save pages, using the
-  same parameter order as Toadstep and Blocks. This is a first test of MPE
-  on Plinky 12, and sets the stage for adding MPE support to other panels.
-  Code is available in the IDE.
+@Description: This is a test of MPE input and output for Plinky 12. It presents as two large play surfaces,
+  each with a dedicated brightness (CC74) slider which is mapped to Plinky's sample-start /
+  wavetable-position parameter. It accepts normal MIDI on channels 1 and 16 for the two sounds, as
+  well as MPE for up to two zones, supporting per-note pitch bend, brightness, and pressure. It
+  also sends data in MPE format. The mode pads below the play surfaces open the usual synth edit
+  and preset load/save pages, using the same parameter order as Toadstep and Blocks. This is a
+  first test of MPE on Plinky 12, and sets the stage for adding MPE support to other panels. Code
+  is available in the IDE.
+@Tags: midi
 */
 #define PANEL_PAD_COLOR YELLOW
 

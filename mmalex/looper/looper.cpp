@@ -1,10 +1,9 @@
+// Generated from a Plinky 12 built-in example by scripts/update_community_panel_builds.sh.
 /*
 @Name: Looper
 @Author: mmalex
 @Description: An 8-track touch looper backed by PSRAM.
-@Level: Advanced
-@Tags: looper, microphone, psram, transport, multitouch
-@Artwork: pixel/P12ExampleLooper.png
+@Tags: looper
 
 Eight track rows share the surface with per-track controls. Hold record and tap a row to arm it; stopped
 recording starts from input level, while playing can sync to a loop head crossing. Playback pads

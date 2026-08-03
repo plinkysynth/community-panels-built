@@ -1,10 +1,9 @@
+// Generated from a Plinky 12 built-in example by scripts/update_community_panel_builds.sh.
 /*
 @Name: Worm
 @Author: mmalex
 @Description: A pressure-driven granular sampler backed by PSRAM.
-@Level: Advanced
-@Tags: granular, sampler, psram, multitouch, effects
-@Artwork: pixel/P12ExampleWorms.webp
+@Tags: granular
 
 Hold the bottom-right record pad while touching main pads to start recording stereo input into
 PSRAM. The record head follows the touch centroid, preferring nearby empty pads. Lift all main
