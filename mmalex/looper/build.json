@@ -1,23 +1,22 @@
 {
-  "schema": "community-native-bundle-v2",
-  "artifactKey": "3fc13ed8b3a1305e8b9f2bd674b9b10998f1ef78d096b0e655bd478639aa8dcd",
-  "artifactFilename": "looper_b828d23ace67_fw95d3.bin.lzma",
-  "artifactSha256": "1447bfd9071864662b9b725cdfd4986bf1cdd439772b9926467502770b4dafd1",
-  "baseSha256": "67aaf15d46e38cbfb232ff7588678a7611c62813320a47063c388cbb3bd8a878",
-  "baseFirmwareCode": "95d3",
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "1b26fbeba47cf0330f430c017e22aa28628c80aeab9bec672be83cba973b9586",
+  "artifactFilename": "looper_b828d23ace67_fwc019.bin.lzma",
+  "artifactSha256": "c7d6158cf9cbfc5d349cde3fc3784dee0c07a778b8643dd1c5290456686fd49d",
+  "baseSha256": "9a2051ff6916fa4f61d1dce3dce6096ac13d3216e7261f606137358b50ed30b0",
+  "baseFirmwareCode": "c019",
+  "baseFirmwareGitHash": "c019b6d6135aae8049bd0696c62eca08936857f7",
   "firmwareRequest": "latest",
-  "firmwareResolved": "95d3",
-  "compilerBundleFilename": "95d3/compiler-bundle_95d3.zip",
-  "compilerBundleSha256": "d298212c393ad25ff7e6a386107f128f67792b35795eb33282760bd7b8949924",
+  "firmwareResolved": "c019",
   "bundle": [
     "grid",
     "mmalex/looper"
   ],
   "sourceSha1": "b828d23ace67d95394b0e2f45d20ded4ea91c4cc",
   "panelVersion": "",
-  "panelCompileHash": "c2e47ed81762fc2f1662a8f4ba087673aaa5553f7bffd5c877bfacbb35ed74fa",
-  "gridCompileHash": "73999e3105ad833bbd4423b6100ed5786f7bc231fd350169f8dffbaf0add0951",
-  "linkHash": "33267dd17667c6a3c60746c5a72721097c206e122cabd91d34a8b6895d0af0c3",
+  "panelCompileHash": "887535e16b3ecda6471df632079b728cba4e0415fc054c26609bed16fee8a4d6",
+  "gridCompileHash": "03a1648a4ef41172c251dd839eed16b4a6649a4dc29c9a07bf3da84ed58c24e7",
+  "linkHash": "d97d13c42729912dc44433bf7130a14a2a4bc77c489cd2d098f959fd780170d3",
   "source": "community-panels/mmalex/looper/looper.cpp",
-  "builtAt": "2026-08-04T10:48:42+00:00"
+  "builtAt": "2026-08-04T15:01:51+00:00"
 }

@@ -1,23 +1,22 @@
 {
-  "schema": "community-native-bundle-v2",
-  "artifactKey": "3827a137a319a0c7796fe970bbdaa1519d398a5f7c66eb00ddfdf700c384ff3b",
-  "artifactFilename": "worm_582ecd6f8e90_fw95d3.bin.lzma",
-  "artifactSha256": "94afe4f59bc6e118d4774f5e2cc617ebe36909b85eb7445c78f9a692e88a3d1e",
-  "baseSha256": "67aaf15d46e38cbfb232ff7588678a7611c62813320a47063c388cbb3bd8a878",
-  "baseFirmwareCode": "95d3",
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "05178677a65a4678e2e5c4cb566619886f32659bd4f8f2eab238ecf037ddbc6e",
+  "artifactFilename": "worm_582ecd6f8e90_fwc019.bin.lzma",
+  "artifactSha256": "ac983628e3417ba10da1fbff7c48d03dad83708c6dfd9871119e26e13acbad93",
+  "baseSha256": "9a2051ff6916fa4f61d1dce3dce6096ac13d3216e7261f606137358b50ed30b0",
+  "baseFirmwareCode": "c019",
+  "baseFirmwareGitHash": "c019b6d6135aae8049bd0696c62eca08936857f7",
   "firmwareRequest": "latest",
-  "firmwareResolved": "95d3",
-  "compilerBundleFilename": "95d3/compiler-bundle_95d3.zip",
-  "compilerBundleSha256": "d298212c393ad25ff7e6a386107f128f67792b35795eb33282760bd7b8949924",
+  "firmwareResolved": "c019",
   "bundle": [
     "grid",
     "mmalex/worm"
   ],
   "sourceSha1": "582ecd6f8e90a47d34d188e78a04678932583ed4",
   "panelVersion": "",
-  "panelCompileHash": "a3c25f81d772972ba6c3e92701c8a4efd354d09570baf676f5841fe56316c88e",
-  "gridCompileHash": "73999e3105ad833bbd4423b6100ed5786f7bc231fd350169f8dffbaf0add0951",
-  "linkHash": "939f6de3799231b7bee3db23bd858ffbe759c1ad59531315cbcce981fab74525",
+  "panelCompileHash": "cf1871e0be0536c03026207ef91ff801f506e1cc91ca04e2db0f806bd116d725",
+  "gridCompileHash": "03a1648a4ef41172c251dd839eed16b4a6649a4dc29c9a07bf3da84ed58c24e7",
+  "linkHash": "7fe97df72e56453db07bb36ba870aa55a680740aca5958da3d47dd433ca7663e",
   "source": "community-panels/mmalex/worm/worm.cpp",
-  "builtAt": "2026-08-04T10:48:46+00:00"
+  "builtAt": "2026-08-04T15:01:56+00:00"
 }

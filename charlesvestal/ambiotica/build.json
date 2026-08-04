@@ -1,23 +1,22 @@
 {
-  "schema": "community-native-bundle-v2",
-  "artifactKey": "c5decd7d97cfe69a305ee7cde2c16065491aa5506d639453d4b923c9623a76bf",
-  "artifactFilename": "ambiotica_631000577f30_fw95d3.bin.lzma",
-  "artifactSha256": "92a10ccd7ad3599b9458827064c51ebbe727ab46b616571d24e9915d495fa60d",
-  "baseSha256": "67aaf15d46e38cbfb232ff7588678a7611c62813320a47063c388cbb3bd8a878",
-  "baseFirmwareCode": "95d3",
-  "firmwareRequest": "95d3",
-  "firmwareResolved": "95d3",
-  "compilerBundleFilename": "95d3/compiler-bundle_95d3.zip",
-  "compilerBundleSha256": "d298212c393ad25ff7e6a386107f128f67792b35795eb33282760bd7b8949924",
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "e446e198fc68e491d401f92b9129fb450ef13a06f45ec53c8afe485b1c85d356",
+  "artifactFilename": "ambiotica_3b2a990414e7_fwc019.bin.lzma",
+  "artifactSha256": "32bfb24e45bc7f9434706b074d13f6fd3afde1c6a886b23702eb89812859f1a8",
+  "baseSha256": "9a2051ff6916fa4f61d1dce3dce6096ac13d3216e7261f606137358b50ed30b0",
+  "baseFirmwareCode": "c019",
+  "baseFirmwareGitHash": "c019b6d6135aae8049bd0696c62eca08936857f7",
+  "firmwareRequest": "c019",
+  "firmwareResolved": "c019",
   "bundle": [
     "grid",
     "charlesvestal/ambiotica"
   ],
-  "sourceSha1": "631000577f30df86abfedd1f867e90e3d32e6a03",
+  "sourceSha1": "3b2a990414e7b4e1adcfb0544296801d8e38dc42",
   "panelVersion": "",
-  "panelCompileHash": "1e5e5e375889812134bd13307a0dc305465753e997da09af844db0200d7ef123",
-  "gridCompileHash": "73999e3105ad833bbd4423b6100ed5786f7bc231fd350169f8dffbaf0add0951",
-  "linkHash": "7e1e1432c3971805a91e6f1336b61076e39fda14b5a83c22fe13556fc8a7ff1b",
+  "panelCompileHash": "669f094de72efa957728b30490c301a4d670221937502ecf7a5e125f985d068a",
+  "gridCompileHash": "03a1648a4ef41172c251dd839eed16b4a6649a4dc29c9a07bf3da84ed58c24e7",
+  "linkHash": "134fbc7681a6779857c4652a3a4fa70ad2613eb3fe9e5f40281b4ba27b734b17",
   "source": "community-panels/charlesvestal/ambiotica/ambiotica.cpp",
-  "builtAt": "2026-08-04T10:48:39+00:00"
+  "builtAt": "2026-08-04T15:01:48+00:00"
 }
