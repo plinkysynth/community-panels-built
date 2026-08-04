@@ -3,6 +3,7 @@
 @Name: Looper
 @Author: mmalex
 @Description: An 8-track touch looper backed by PSRAM.
+@Firmware: latest
 @Tags: looper
 
 Eight track rows share the surface with per-track controls. Hold record and tap a row to arm it; stopped

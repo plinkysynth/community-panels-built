@@ -11,6 +11,7 @@
   and preset load/save pages, using the same parameter order as Toadstep and Blocks. This is a
   first test of MPE on Plinky 12, and sets the stage for adding MPE support to other panels. Code
   is available in the IDE.
+@Firmware: latest
 @Tags: midi
 */
 #define PANEL_PAD_COLOR YELLOW

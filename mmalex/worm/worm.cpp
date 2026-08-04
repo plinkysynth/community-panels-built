@@ -3,6 +3,7 @@
 @Name: Worm
 @Author: mmalex
 @Description: A pressure-driven granular sampler backed by PSRAM.
+@Firmware: latest
 @Tags: granular
 
 Hold the bottom-right record pad while touching main pads to start recording stereo input into
