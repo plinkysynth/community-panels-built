@@ -1,22 +1,22 @@
 {
   "schema": "community-native-bundle-v4",
-  "artifactKey": "aa3acf7fc8e04b1e0da999eefba1cf0a4ddcab5c20f7a1a0fa094d3415f3022a",
-  "artifactFilename": "mpe_test_d6f58c38c17e_fwc019.bin.lzma",
-  "artifactSha256": "9eff79a870284820c67e8a5f41ad1c2d8d87ee46cdabbf23524dec220467fccc",
-  "baseSha256": "9a2051ff6916fa4f61d1dce3dce6096ac13d3216e7261f606137358b50ed30b0",
-  "baseFirmwareCode": "c019",
-  "baseFirmwareGitHash": "c019b6d6135aae8049bd0696c62eca08936857f7",
+  "artifactKey": "fa90b76bfb8e9a95c1f5f52ce000ed01a31e263f4648f4e4634d674940523dc7",
+  "artifactFilename": "mpe_test_d6f58c38c17e_fwe41f.bin.lzma",
+  "artifactSha256": "54d162748cdbddbba13f9afd0b6cd5e0674e0e60b529b893b11f3708003aa52a",
+  "baseSha256": "b9f65ac388f33d890c244adc33e9e1cbb9063ce1cc20d638e751599825ed8ee5",
+  "baseFirmwareCode": "e41f",
+  "baseFirmwareGitHash": "e41f120ccc8c3121760ede85d847f221e4cfabef",
   "firmwareRequest": "latest",
-  "firmwareResolved": "c019",
+  "firmwareResolved": "e41f",
   "bundle": [
     "grid",
     "mmalex/mpe_test"
   ],
   "sourceSha1": "d6f58c38c17ea7c93724554b64c3fac554077e50",
   "panelVersion": "",
-  "panelCompileHash": "e8c2c2aca5050cebd4d0781aab43c96fb84b57f532cb0cd64c634ccc7dde6534",
-  "gridCompileHash": "03a1648a4ef41172c251dd839eed16b4a6649a4dc29c9a07bf3da84ed58c24e7",
-  "linkHash": "181eeedb9fd8b01d8da3653bb900b2e4b0a9575c9bb152e7442548beb98ea7bf",
+  "panelCompileHash": "cde18c8a980e2372b2e7057760f8886eb35517f4eb99a9d5a5c0a05fb11f1377",
+  "gridCompileHash": "250c388a6765c56619e9405eadd50347429ed7db3610ddedb4a6b7f0c788c6fc",
+  "linkHash": "475d58a17f9649279ee50a67b340a870c137b283bc18cdad3cd93d06d4ad7941",
   "source": "community-panels/mmalex/mpe_test/mpe_test.cpp",
-  "builtAt": "2026-08-04T15:01:53+00:00"
+  "builtAt": "2026-08-07T19:03:29+00:00"
 }

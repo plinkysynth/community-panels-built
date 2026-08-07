@@ -49,6 +49,18 @@ Column 15 is one bipolar slider. Centre is neutral, and white.
 **Down, red: Event Horizon.** Everything drains away. At the bottom the loop is empty and the
 next phrase starts from silence.
 
+## New phrase
+
+Hold **×** and tap **REC**, the record circle right beside it. The loop and the micro-loop empty
+on the spot and the reverb keeps ringing, so the next thing you play starts over the tail of the
+last thing instead of after it.
+
+Keep holding and they stay empty, so you can let the wash breathe and come back in where you
+want rather than where you happened to press. Hold about a second longer and the reverb goes
+too, fading over the second after that. The pad dims as the tail does, and black is silence.
+
+Event Horizon collapses the whole engine on the way down. This empties only what was recorded.
+
 ## Dilate
 
 Tap **UNLOCK**, top right of the sequencer row, and the loop bed and micro-loop run backward.
@@ -146,6 +158,12 @@ Page **up** from the play surface with the right-hand side buttons. The first tw
 
 There is a [demo of this](https://www.youtube.com/watch?v=nSFfK28sIks) if you want to hear what
 it does to a live signal.
+
+Pick **mic** and you will notice four pads go dark, in the top corners either side of the
+Chords. That is Plinky itself, not this panel: an LED right next to a microphone hole puts its
+own noise into whatever the mic is recording, so the firmware switches those four off while the
+mic is live. They still respond to your touch, and they come back when you go back to `line` or
+`off`. On this panel that costs you the lit UNLOCK pad and the top-left corner of the step grid.
 
 ## Credits
 

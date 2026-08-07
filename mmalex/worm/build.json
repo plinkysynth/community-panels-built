@@ -1,22 +1,22 @@
 {
   "schema": "community-native-bundle-v4",
-  "artifactKey": "05178677a65a4678e2e5c4cb566619886f32659bd4f8f2eab238ecf037ddbc6e",
-  "artifactFilename": "worm_582ecd6f8e90_fwc019.bin.lzma",
-  "artifactSha256": "ac983628e3417ba10da1fbff7c48d03dad83708c6dfd9871119e26e13acbad93",
-  "baseSha256": "9a2051ff6916fa4f61d1dce3dce6096ac13d3216e7261f606137358b50ed30b0",
-  "baseFirmwareCode": "c019",
-  "baseFirmwareGitHash": "c019b6d6135aae8049bd0696c62eca08936857f7",
+  "artifactKey": "4bd54655a1eddfc412d40ff3902c437cf9af76510bba7f0e3c85bb9b4390d4a6",
+  "artifactFilename": "worm_582ecd6f8e90_fwe41f.bin.lzma",
+  "artifactSha256": "32b44557fcf47d48add54baa4383ddbe50601bdd59877ab652c5709ed913f28d",
+  "baseSha256": "b9f65ac388f33d890c244adc33e9e1cbb9063ce1cc20d638e751599825ed8ee5",
+  "baseFirmwareCode": "e41f",
+  "baseFirmwareGitHash": "e41f120ccc8c3121760ede85d847f221e4cfabef",
   "firmwareRequest": "latest",
-  "firmwareResolved": "c019",
+  "firmwareResolved": "e41f",
   "bundle": [
     "grid",
     "mmalex/worm"
   ],
   "sourceSha1": "582ecd6f8e90a47d34d188e78a04678932583ed4",
   "panelVersion": "",
-  "panelCompileHash": "cf1871e0be0536c03026207ef91ff801f506e1cc91ca04e2db0f806bd116d725",
-  "gridCompileHash": "03a1648a4ef41172c251dd839eed16b4a6649a4dc29c9a07bf3da84ed58c24e7",
-  "linkHash": "7fe97df72e56453db07bb36ba870aa55a680740aca5958da3d47dd433ca7663e",
+  "panelCompileHash": "ae415fce38e1f2edb09b9f6638a0c9ba50b1802e1a62614e77694e59a3be0327",
+  "gridCompileHash": "250c388a6765c56619e9405eadd50347429ed7db3610ddedb4a6b7f0c788c6fc",
+  "linkHash": "f643d8a33966a654fde8d7d08ba096600fc684966072091f377fc4c5c2e9574c",
   "source": "community-panels/mmalex/worm/worm.cpp",
-  "builtAt": "2026-08-04T15:01:56+00:00"
+  "builtAt": "2026-08-07T19:03:32+00:00"
 }
