@@ -1,0 +1,22 @@
+{
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "98f4975c0f3a81c86d41ee03607bbc284a829701f26a3dafff93c3a45de005c1",
+  "artifactFilename": "tnr_p12_62ad48696adf_fwcb4e.bin.lzma",
+  "artifactSha256": "cf4fd9426a5952f92a4bd017627089b3d4da4fd7881637c6fa79282e41d657b4",
+  "baseSha256": "fc3bc52acb1cb8b941b8e41d7532e9cde70cd99e25caebca38fd13f6e5919a89",
+  "baseFirmwareCode": "cb4e",
+  "baseFirmwareGitHash": "cb4edf641583fb7b0ce86d63458f593a299a4221",
+  "firmwareRequest": "latest",
+  "firmwareResolved": "cb4e",
+  "bundle": [
+    "grid",
+    "okyeron/tnr_p12"
+  ],
+  "sourceSha1": "62ad48696adfce4ba8d223cb3b9979a59630b58c",
+  "panelVersion": "",
+  "panelCompileHash": "7812069f5fad90f98835b1534c7c9edee59b4e0df63ba81480b36fa9fd9bfe16",
+  "gridCompileHash": "c00604e319a46511f57d09b48dff916a284de7f97512e87fbd498fb504e211f2",
+  "linkHash": "4455cad03bc9069ce56544cb18fb8752825d09332601438c7ce15385d68ed928",
+  "source": "community-panels/okyeron/tnr_p12/tenori_on.cpp",
+  "builtAt": "2026-08-17T19:19:01+00:00"
+}

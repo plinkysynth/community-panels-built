@@ -5,6 +5,9 @@
     },
     "mmalex": {
       "_readme": "COMMUNITY_PANELS/mmalex/README.md"
+    },
+    "okyeron": {
+      "_readme": "COMMUNITY_PANELS/okyeron/README.md"
     }
   },
   "panels": {
@@ -250,6 +253,45 @@
         "_native_source_sha1": "37829b7418b6128fecc0ea5816b2bd31fbb4ec60",
         "_native_artifact_status": "current",
         "_native_compile_hash": "a72d1265a9d414b15d7878ce955e4a77cacfd1bacb86fcd4596d3293b81b6d3b",
+        "_native_grid_compile_hash": "c00604e319a46511f57d09b48dff916a284de7f97512e87fbd498fb504e211f2"
+      },
+      "okyeron/tnr_p12": {
+        "Author": "okyeron",
+        "Firmware": "latest",
+        "Tags": "sequencer, groovebox, midi",
+        "Preferred Panels": "all",
+        "name": "TNR-p12",
+        "description": "An 8-layer 16-step grid sequencer with Score, Random, and Bounce modes, inspired by the Yamaha Tenori-On.",
+        "_library_kind": "community",
+        "_cpp": "COMMUNITY_PANELS/okyeron/tnr_p12/tnr_p12.cpp",
+        "_source_sha1": "62ad48696adfce4ba8d223cb3b9979a59630b58c",
+        "_panel_name": "tenori_on",
+        "_source": "community-panels/okyeron/tnr_p12/tenori_on.cpp",
+        "_author_slug": "okyeron",
+        "_panel_slug": "tnr_p12",
+        "_community_id": "okyeron/tnr_p12",
+        "_community_path": "community/okyeron/tnr_p12/",
+        "_readme": "COMMUNITY_PANELS/okyeron/tnr_p12/README.md",
+        "_author_readme": "COMMUNITY_PANELS/okyeron/README.md",
+        "artwork": "COMMUNITY_PANELS/okyeron/tnr_p12/artwork.png",
+        "_lzma": "COMMUNITY_PANELS/okyeron/tnr_p12/tnr_p12_62ad48696adf_fwcb4e.bin.lzma",
+        "_native_artifact_schema": "community-native-bundle-v4",
+        "_native_artifact_sha256": "cf4fd9426a5952f92a4bd017627089b3d4da4fd7881637c6fa79282e41d657b4",
+        "_native_artifact_key": "98f4975c0f3a81c86d41ee03607bbc284a829701f26a3dafff93c3a45de005c1",
+        "_native_artifact_filename": "tnr_p12_62ad48696adf_fwcb4e.bin.lzma",
+        "_native_link_hash": "4455cad03bc9069ce56544cb18fb8752825d09332601438c7ce15385d68ed928",
+        "_native_base_sha256": "fc3bc52acb1cb8b941b8e41d7532e9cde70cd99e25caebca38fd13f6e5919a89",
+        "_native_base_firmware_code": "cb4e",
+        "_native_base_firmware_git_hash": "cb4edf641583fb7b0ce86d63458f593a299a4221",
+        "_native_firmware_request": "latest",
+        "_native_firmware_resolved": "cb4e",
+        "_native_bundle": [
+          "grid",
+          "okyeron/tnr_p12"
+        ],
+        "_native_source_sha1": "62ad48696adfce4ba8d223cb3b9979a59630b58c",
+        "_native_artifact_status": "current",
+        "_native_compile_hash": "7812069f5fad90f98835b1534c7c9edee59b4e0df63ba81480b36fa9fd9bfe16",
         "_native_grid_compile_hash": "c00604e319a46511f57d09b48dff916a284de7f97512e87fbd498fb504e211f2"
       }
     }
