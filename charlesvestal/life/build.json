@@ -1,0 +1,22 @@
+{
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "9bac2e773773fc9516c8e69f088b6031b6d1ad24ba19c5a66d08530770bfd042",
+  "artifactFilename": "life_ff4fcb92389b_fweb9e.bin.lzma",
+  "artifactSha256": "6e40e71e6252125f448b1b5950d568d2ab72e5ee83b79e4c163d5b83a120aac9",
+  "baseSha256": "0f2bc933fae0a6b17664bb2f4ee679d803fbc0143b4c2471fd91669702387d90",
+  "baseFirmwareCode": "eb9e",
+  "baseFirmwareGitHash": "eb9e54ab16a0f78055260e3355fabe71d7e2f823",
+  "firmwareRequest": "eb9e",
+  "firmwareResolved": "eb9e",
+  "bundle": [
+    "grid",
+    "charlesvestal/life"
+  ],
+  "sourceSha1": "ff4fcb92389b3360f48d3b083a2d9c4cb60e40a4",
+  "panelVersion": "",
+  "panelCompileHash": "fe3d5dad3e2b3012ab389e4bf979913192107812f31ee11eb65b841ec161e715",
+  "gridCompileHash": "d7a57501c7039543c08d5cfd56e0e43740e9af4ec429e9b7229c0d4312fced8b",
+  "linkHash": "fd1ab2a6cbc4979ea64bffd4d85269b2e9a618a2074bf0e15e1be53b23b9c160",
+  "source": "community-panels/charlesvestal/life/life.cpp",
+  "builtAt": "2026-08-17T17:18:42+00:00"
+}
