@@ -1,0 +1,22 @@
+{
+  "schema": "community-native-bundle-v4",
+  "artifactKey": "2909156a1308582900e87df276782e2b9d1efb46d81d60fca49f5a7016f7d4b3",
+  "artifactFilename": "kristallwuchs_e36be7cec226_fw916f.bin.lzma",
+  "artifactSha256": "1bfd5056330124fe6fe43ab8ed2bec800ccf158b27b516a477f9998016d21172",
+  "baseSha256": "a847bf7e2e45c90dcbba972b472b1c3f0a6e7d37500de2fdd1797e72b900f3d0",
+  "baseFirmwareCode": "916f",
+  "baseFirmwareGitHash": "916f730add9dcd06a1592efa725ae7fe9024ee55",
+  "firmwareRequest": "beta",
+  "firmwareResolved": "916f",
+  "bundle": [
+    "grid",
+    "perplex_on/kristallwuchs"
+  ],
+  "sourceSha1": "e36be7cec2264c7d9dde8c189e4964ea85414ee5",
+  "panelVersion": "",
+  "panelCompileHash": "00a38d28a485cc065b1da3cb02b41cafb19819a85cfb4b5847e7e0a225a758ad",
+  "gridCompileHash": "34193f4a992a24d04c66b9bae30a63cf1718bc6ea229cf409d9cc1e6105bb023",
+  "linkHash": "2128608eb809608133ef82d1ef392a4224c15b4c04a26755f1bb5e16d561bcb2",
+  "source": "community-panels/perplex_on/kristallwuchs/kristallwuchs.cpp",
+  "builtAt": "2026-10-08T09:36:45+00:00"
+}
