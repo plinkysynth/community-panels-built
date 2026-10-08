@@ -1,8 +1,8 @@
 {
   "schema": "community-native-bundle-v4",
-  "artifactKey": "0733a9631e41b8032a31f45f6459031974ab3c020c3c86d1131740cbe7136ecf",
-  "artifactFilename": "pendulum_584cd3ec6320_fw916f.bin.lzma",
-  "artifactSha256": "56754d2e4b1382bdc3acf3dbeff86c04dc5f35c69d5ec31d8ef3f7ee2f2e3110",
+  "artifactKey": "8310aec08d6468c5cc6868bb850b8684ceb4289fe0f10990b8bfc1f1d6475346",
+  "artifactFilename": "pendulum_076a885765f5_fw916f.bin.lzma",
+  "artifactSha256": "8bfa0691171a870431530f5e35dba646e3c89ae243a98e435a496ed2266f1569",
   "baseSha256": "a847bf7e2e45c90dcbba972b472b1c3f0a6e7d37500de2fdd1797e72b900f3d0",
   "baseFirmwareCode": "916f",
   "baseFirmwareGitHash": "916f730add9dcd06a1592efa725ae7fe9024ee55",
@@ -12,11 +12,11 @@
     "grid",
     "perplex_on/pendulum"
   ],
-  "sourceSha1": "584cd3ec632056e59f2a9c78beac993650648801",
+  "sourceSha1": "076a885765f56cccbf6f84d188f34a1d5477134c",
   "panelVersion": "",
-  "panelCompileHash": "dd61fccf3c013cc4b414d5e311799ff3dab1a1b64f164d7b652d4688fe3e23f8",
-  "gridCompileHash": "34193f4a992a24d04c66b9bae30a63cf1718bc6ea229cf409d9cc1e6105bb023",
-  "linkHash": "c564317a0b9b568a1bce4ed551accfc3aae93140f71d0e624264783d163e0752",
+  "panelCompileHash": "3bf5ef543bf4b5ba7442d75de39e891076a7bebf6f7a186674748db4c934ac09",
+  "gridCompileHash": "61dc5f3de9fc6f85d2ce0c4359ba4a49cb74558277d23a9d7e38e66fa8331e8e",
+  "linkHash": "b07c7c1407374aa85a1c92522f0331369a1862e2e257844dd0179b5bf47992bd",
   "source": "community-panels/perplex_on/pendulum/pendulum.cpp",
-  "builtAt": "2026-10-08T09:36:47+00:00"
+  "builtAt": "2026-10-08T19:40:51+00:00"
 }
