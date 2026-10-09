@@ -1,22 +1,23 @@
 {
-  "schema": "community-native-bundle-v4",
-  "artifactKey": "2909156a1308582900e87df276782e2b9d1efb46d81d60fca49f5a7016f7d4b3",
-  "artifactFilename": "kristallwuchs_e36be7cec226_fw916f.bin.lzma",
-  "artifactSha256": "1bfd5056330124fe6fe43ab8ed2bec800ccf158b27b516a477f9998016d21172",
-  "baseSha256": "a847bf7e2e45c90dcbba972b472b1c3f0a6e7d37500de2fdd1797e72b900f3d0",
-  "baseFirmwareCode": "916f",
-  "baseFirmwareGitHash": "916f730add9dcd06a1592efa725ae7fe9024ee55",
-  "firmwareRequest": "beta",
-  "firmwareResolved": "916f",
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "91e7de431e4b64cbbb6c24c3b4531f90235595dc5c2b05c1f19f09418c7d5bad",
+  "artifactFilename": "kristallwuchs_b04140f63e99_fwe197.bin.lzma",
+  "artifactSha256": "7f98e859be0ea736857bbe91d4f214c61ad15711219002280beef1e4ad4e7090",
+  "baseSha256": "f437512dc426fab104bb2abb1fa4d2413492bba43d0fd169062dbf910330ef65",
+  "baseFirmwareCode": "e197",
+  "baseFirmwareGitHash": "e197d6126dcc63b1dc01654060eb1d7a7217179f",
+  "firmwareResolved": "e197",
   "bundle": [
     "grid",
     "perplex_on/kristallwuchs"
   ],
-  "sourceSha1": "e36be7cec2264c7d9dde8c189e4964ea85414ee5",
+  "sourceSha1": "b04140f63e9901a4bf1c0e2d70cd532b67992610",
   "panelVersion": "",
-  "panelCompileHash": "00a38d28a485cc065b1da3cb02b41cafb19819a85cfb4b5847e7e0a225a758ad",
-  "gridCompileHash": "34193f4a992a24d04c66b9bae30a63cf1718bc6ea229cf409d9cc1e6105bb023",
-  "linkHash": "2128608eb809608133ef82d1ef392a4224c15b4c04a26755f1bb5e16d561bcb2",
+  "panelCompileHash": "31ed6454b94547e03b39721bc1c55c0b7d6b7330bc99e4c785c9e84181097d2c",
+  "gridCompileHash": "aaff0ec496f058ea6a4ca0c1313a7b6ee2351e5da9c125568a568a767bb6620b",
+  "linkHash": "df69b4ff731df311c090a20663446ef3ab1512d3e50cbe9fe30b0d1da6ac3335",
   "source": "community-panels/perplex_on/kristallwuchs/kristallwuchs.cpp",
-  "builtAt": "2026-10-08T09:36:45+00:00"
+  "builtAt": "2026-10-09T15:55:19+00:00",
+  "baseFirmwareBuiltAt": "2026-10-08T19:43:29Z",
+  "baseFirmwareChannel": "alpha"
 }

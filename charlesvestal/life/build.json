@@ -1,22 +1,23 @@
 {
-  "schema": "community-native-bundle-v4",
-  "artifactKey": "9bac2e773773fc9516c8e69f088b6031b6d1ad24ba19c5a66d08530770bfd042",
-  "artifactFilename": "life_ff4fcb92389b_fweb9e.bin.lzma",
-  "artifactSha256": "6e40e71e6252125f448b1b5950d568d2ab72e5ee83b79e4c163d5b83a120aac9",
-  "baseSha256": "0f2bc933fae0a6b17664bb2f4ee679d803fbc0143b4c2471fd91669702387d90",
-  "baseFirmwareCode": "eb9e",
-  "baseFirmwareGitHash": "eb9e54ab16a0f78055260e3355fabe71d7e2f823",
-  "firmwareRequest": "eb9e",
-  "firmwareResolved": "eb9e",
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "bc09b06ea031ac00f49effd8d7329866f19fb4d12fe9c707f9b804613fa15e39",
+  "artifactFilename": "life_c16cbe8d6821_fwe197.bin.lzma",
+  "artifactSha256": "96918ea8503693a4d15ed446c6fa2206212a4961d80139f155a563a3804c6c38",
+  "baseSha256": "f437512dc426fab104bb2abb1fa4d2413492bba43d0fd169062dbf910330ef65",
+  "baseFirmwareCode": "e197",
+  "baseFirmwareGitHash": "e197d6126dcc63b1dc01654060eb1d7a7217179f",
+  "firmwareResolved": "e197",
   "bundle": [
     "grid",
     "charlesvestal/life"
   ],
-  "sourceSha1": "ff4fcb92389b3360f48d3b083a2d9c4cb60e40a4",
+  "sourceSha1": "c16cbe8d682199072202a0abb2f8f8676a52cc8f",
   "panelVersion": "",
-  "panelCompileHash": "fe3d5dad3e2b3012ab389e4bf979913192107812f31ee11eb65b841ec161e715",
-  "gridCompileHash": "d7a57501c7039543c08d5cfd56e0e43740e9af4ec429e9b7229c0d4312fced8b",
-  "linkHash": "fd1ab2a6cbc4979ea64bffd4d85269b2e9a618a2074bf0e15e1be53b23b9c160",
+  "panelCompileHash": "6b34d39ffc628a92bff8c8f82d7a015b1f3cf1ca17eec174f6bc44b741468a6a",
+  "gridCompileHash": "aaff0ec496f058ea6a4ca0c1313a7b6ee2351e5da9c125568a568a767bb6620b",
+  "linkHash": "1528335e87d9cc0171685430d011bcdd8ec1db2e3ee658efcfe7b9ebd2614696",
   "source": "community-panels/charlesvestal/life/life.cpp",
-  "builtAt": "2026-08-17T17:18:42+00:00"
+  "builtAt": "2026-10-09T15:53:49+00:00",
+  "baseFirmwareBuiltAt": "2026-10-08T19:43:29Z",
+  "baseFirmwareChannel": "alpha"
 }

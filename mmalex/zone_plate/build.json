@@ -1,22 +1,23 @@
 {
-  "schema": "community-native-bundle-v4",
-  "artifactKey": "4048c1978909aa224af09533efb012ce62e22f23da52f16dce11a14a732181b8",
-  "artifactFilename": "zone_plate_37829b7418b6_fwcb4e.bin.lzma",
-  "artifactSha256": "4b25ece37b7b81fae0524300016203cb80bedebbea8677582460a02ce9b7d00b",
-  "baseSha256": "fc3bc52acb1cb8b941b8e41d7532e9cde70cd99e25caebca38fd13f6e5919a89",
-  "baseFirmwareCode": "cb4e",
-  "baseFirmwareGitHash": "cb4edf641583fb7b0ce86d63458f593a299a4221",
-  "firmwareRequest": "latest",
-  "firmwareResolved": "cb4e",
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "edee2f4fc1263f83582d13593432babcf3df3cc8c309f8885c91618f80cf43f7",
+  "artifactFilename": "zone_plate_bad453cffa64_fwe197.bin.lzma",
+  "artifactSha256": "45fdf01ddd4b18ac610d10204f7c5c88d6230237b0cb31cc575f6b896a348a30",
+  "baseSha256": "f437512dc426fab104bb2abb1fa4d2413492bba43d0fd169062dbf910330ef65",
+  "baseFirmwareCode": "e197",
+  "baseFirmwareGitHash": "e197d6126dcc63b1dc01654060eb1d7a7217179f",
+  "firmwareResolved": "e197",
   "bundle": [
     "grid",
     "mmalex/zone_plate"
   ],
-  "sourceSha1": "37829b7418b6128fecc0ea5816b2bd31fbb4ec60",
+  "sourceSha1": "bad453cffa64f53794c090b62877b6373262721e",
   "panelVersion": "",
-  "panelCompileHash": "a72d1265a9d414b15d7878ce955e4a77cacfd1bacb86fcd4596d3293b81b6d3b",
-  "gridCompileHash": "c00604e319a46511f57d09b48dff916a284de7f97512e87fbd498fb504e211f2",
-  "linkHash": "f81ee02af4ba3f79bad75727ceb7035389ba1b3542f458e049e16a6bfde5ef4d",
+  "panelCompileHash": "1093ada50e11a691d873776ab5daa3271366dae035ba9a19f0fe493b5cd8cb93",
+  "gridCompileHash": "aaff0ec496f058ea6a4ca0c1313a7b6ee2351e5da9c125568a568a767bb6620b",
+  "linkHash": "ea8180b81d14a4582c957d0e9805b99b2e85e3fd901a59d79aedc8c88c0a0730",
   "source": "community-panels/mmalex/zone_plate/zone_plate.cpp",
-  "builtAt": "2026-08-17T17:18:43+00:00"
+  "builtAt": "2026-10-09T15:55:14+00:00",
+  "baseFirmwareBuiltAt": "2026-10-08T19:43:29Z",
+  "baseFirmwareChannel": "alpha"
 }
