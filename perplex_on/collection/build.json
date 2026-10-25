@@ -1,0 +1,47 @@
+{
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "3a590f87e046ac85f308298c56c8c61694615c51ca5d4481fac78ed0a4bac85b",
+  "artifactFilename": "collection_4931db50fe6f_fwd94a.bin.lzma",
+  "artifactSha256": "cd86b0760bc589ad6a702a3c9db8899859b2a90a1092feb42e3312fd41622b49",
+  "baseSha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
+  "baseFirmwareCode": "d94a",
+  "baseFirmwareGitHash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
+  "firmwareResolved": "d94a",
+  "bundle": [
+    "grid",
+    "perplex_on/pendulum",
+    "perplex_on/kristallwuchs",
+    "perplex_on/spiegel_12"
+  ],
+  "sourceSha1": "4931db50fe6f6c0cfe84f45912ea04a222e7d613",
+  "panelVersion": "",
+  "panelCompileHash": "3a590f87e046ac85f308298c56c8c61694615c51ca5d4481fac78ed0a4bac85b",
+  "gridCompileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd",
+  "linkHash": "f414d4a22d1afb907929941d1131f644aaadd17aef4477751b832a8ea1b20639",
+  "source": "community-panels/perplex_on/collection/pack.json",
+  "builtAt": "2026-10-25T20:46:08+00:00",
+  "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
+  "baseFirmwareChannel": "beta",
+  "members": [
+    {
+      "id": "grid",
+      "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613",
+      "compileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd"
+    },
+    {
+      "id": "perplex_on/pendulum",
+      "sourceSha1": "7420c910e9a5bd345c8ac7a295fa3b143fe8f02c",
+      "compileHash": "28fc93d4531311bce417945a977185b8acbf5d0d87c5af8f5c9ad0d5e2d1b586"
+    },
+    {
+      "id": "perplex_on/kristallwuchs",
+      "sourceSha1": "b04140f63e9901a4bf1c0e2d70cd532b67992610",
+      "compileHash": "0e0c8721648da55129eefb8d336d3a8ee186bbecac532368afe857bf232fac16"
+    },
+    {
+      "id": "perplex_on/spiegel_12",
+      "sourceSha1": "2d80e7593188c531d489ef3e3847167b48a68b83",
+      "compileHash": "392466c851270ddf3871630fa75e44d9f66342d7923e3e03c45b636673c46a82"
+    }
+  ]
+}

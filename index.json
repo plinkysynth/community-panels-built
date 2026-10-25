@@ -50,7 +50,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:38+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -94,7 +94,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:42+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -133,7 +133,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:45+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -173,7 +173,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:47+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -212,7 +212,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:49+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -253,7 +253,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:50+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -293,7 +293,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:53+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -302,6 +302,62 @@
         "_native_source_sha1": "474fa8b8609fc885b1a14a39bbb11bf7a5c3a6f4",
         "_native_artifact_status": "current",
         "_native_compile_hash": "40237f5d427d5e4b5d879ab0417b852606d956aadd9423fba7eed7bb63dc5f81",
+        "_native_grid_compile_hash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd"
+      },
+      "perplex_on/collection": {
+        "Author": "PERPLEX ON",
+        "Tags": "pack, generative, sequencer, instrument",
+        "Preferred Panels": "blocks",
+        "name": "PERPLEX ON Collection",
+        "description": "Three panels exploring movement: Pendulum, Kristallwuchs and Spiegel 12, together in one firmware download.",
+        "_library_kind": "community",
+        "_pack": "COMMUNITY_PANELS/perplex_on/collection/pack.json",
+        "_pack_members": [
+          "perplex_on/pendulum",
+          "perplex_on/kristallwuchs",
+          "perplex_on/spiegel_12"
+        ],
+        "_pack_grid": {
+          "key": "grid",
+          "metadata": {
+            "name": "Grid",
+            "_panel_name": "grid",
+            "_library_kind": "examples",
+            "_cpp": "COMMUNITY_PANELS/perplex_on/collection/grid.cpp"
+          }
+        },
+        "artwork": "COMMUNITY_PANELS/perplex_on/collection/artwork.png",
+        "_source_sha1": "4931db50fe6f6c0cfe84f45912ea04a222e7d613",
+        "_panel_name": "",
+        "_source": "community-panels/perplex_on/collection/pack.json",
+        "_author_slug": "perplex_on",
+        "_panel_slug": "collection",
+        "_community_id": "perplex_on/collection",
+        "_community_path": "community/perplex_on/collection/",
+        "_readme": "COMMUNITY_PANELS/perplex_on/collection/README.md",
+        "_author_readme": "COMMUNITY_PANELS/perplex_on/README.md",
+        "_lzma": "COMMUNITY_PANELS/perplex_on/collection/collection_4931db50fe6f_fwd94a.bin.lzma",
+        "_native_artifact_schema": "community-native-bundle-v5",
+        "_native_artifact_sha256": "cd86b0760bc589ad6a702a3c9db8899859b2a90a1092feb42e3312fd41622b49",
+        "_native_artifact_key": "3a590f87e046ac85f308298c56c8c61694615c51ca5d4481fac78ed0a4bac85b",
+        "_native_artifact_filename": "collection_4931db50fe6f_fwd94a.bin.lzma",
+        "_native_link_hash": "f414d4a22d1afb907929941d1131f644aaadd17aef4477751b832a8ea1b20639",
+        "_native_base_sha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
+        "_native_base_firmware_code": "d94a",
+        "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
+        "_native_built_at": "2026-10-25T20:46:08+00:00",
+        "_native_firmware_built_at": "2026-10-22T09:38:08Z",
+        "_native_firmware_channel": "beta",
+        "_native_firmware_resolved": "d94a",
+        "_native_bundle": [
+          "grid",
+          "perplex_on/pendulum",
+          "perplex_on/kristallwuchs",
+          "perplex_on/spiegel_12"
+        ],
+        "_native_source_sha1": "4931db50fe6f6c0cfe84f45912ea04a222e7d613",
+        "_native_artifact_status": "current",
+        "_native_compile_hash": "3a590f87e046ac85f308298c56c8c61694615c51ca5d4481fac78ed0a4bac85b",
         "_native_grid_compile_hash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd"
       },
       "perplex_on/kristallwuchs": {
@@ -334,7 +390,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:55+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -375,7 +431,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:58+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -416,7 +472,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:01:36+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "alpha",
+        "_native_firmware_channel": "beta",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
