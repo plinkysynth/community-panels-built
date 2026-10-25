@@ -1,0 +1,23 @@
+{
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "0b27bb0237b2431eb36c34b069ecafc0cdb66642f6a960ef74a9b05592c1fb79",
+  "artifactFilename": "spiegel_12_2d80e7593188_fwd94a.bin.lzma",
+  "artifactSha256": "920942056e0045ad58140c4f010bb1b579c46310460ef9735dd80a843224963b",
+  "baseSha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
+  "baseFirmwareCode": "d94a",
+  "baseFirmwareGitHash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
+  "firmwareResolved": "d94a",
+  "bundle": [
+    "grid",
+    "perplex_on/spiegel_12"
+  ],
+  "sourceSha1": "2d80e7593188c531d489ef3e3847167b48a68b83",
+  "panelVersion": "",
+  "panelCompileHash": "392466c851270ddf3871630fa75e44d9f66342d7923e3e03c45b636673c46a82",
+  "gridCompileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd",
+  "linkHash": "e520db6e51c1d16ec16a42788734e671d8965cd0183026cf48496b41c8929d5a",
+  "source": "community-panels/perplex_on/spiegel_12/spiegel_12.cpp",
+  "builtAt": "2026-10-25T20:01:36+00:00",
+  "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
+  "baseFirmwareChannel": "alpha"
+}
