@@ -19,5 +19,5 @@
   "source": "community-panels/mmalex/looper/looper.cpp",
   "builtAt": "2026-10-25T20:10:45+00:00",
   "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
-  "baseFirmwareChannel": "beta"
+  "baseFirmwareChannel": "stable"
 }

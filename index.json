@@ -50,7 +50,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:38+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -94,7 +94,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:42+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -133,7 +133,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:45+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -173,7 +173,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:47+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -212,7 +212,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:49+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -253,7 +253,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:50+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -293,7 +293,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:53+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -347,7 +347,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:46:08+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -390,7 +390,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:55+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -431,7 +431,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:10:58+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",
@@ -472,7 +472,7 @@
         "_native_base_firmware_git_hash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
         "_native_built_at": "2026-10-25T20:01:36+00:00",
         "_native_firmware_built_at": "2026-10-22T09:38:08Z",
-        "_native_firmware_channel": "beta",
+        "_native_firmware_channel": "stable",
         "_native_firmware_resolved": "d94a",
         "_native_bundle": [
           "grid",

@@ -21,7 +21,7 @@
   "source": "community-panels/perplex_on/collection/pack.json",
   "builtAt": "2026-10-25T20:46:08+00:00",
   "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
-  "baseFirmwareChannel": "beta",
+  "baseFirmwareChannel": "stable",
   "members": [
     {
       "id": "grid",
