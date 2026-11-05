@@ -53,12 +53,21 @@ static int kr_round(float x) { return x >= 0.f ? (int)(x + 0.5f) : -(int)(-x + 0
 
 // ---- scale helpers (panel-owned harmony, no dependency on boot-time globals) ----
 static uint16_t kr_scale_mask(int scale_idx) {
-  static const uint16_t MASKS[8] = {0xAB5, 0x5AD, 0x6AD, 0x295, 0x4A9, 0x18D, 0xAD5, 0x5AB};
+  static const uint16_t MASKS[8] = {
+      SCALE_MAJOR,            // maj
+      SCALE_MINOR,            // min
+      SCALE_DORIAN,           // dor
+      SCALE_PENTATONIC_MAJOR, // pent
+      SCALE_PENTATONIC_MINOR, // mpnt
+      SCALE_HIRAJOSHI,        // hira
+      SCALE_LYDIAN,           // lyd
+      SCALE_PHRYGIAN,         // phr
+  };
   return MASKS[clampi(scale_idx, 0, 7)];
 }
 
-static int kr_scale_note(int root, int scale_idx, int degree, int base) {
-  uint16_t mask = kr_scale_mask(scale_idx);
+static int kr_scale_note(int root, uint16_t scale_mask, int degree, int base) {
+  uint16_t mask = scale_mask & 0x0fffu;
   int n = count_bits(mask);
   if (n <= 0) return clampi(base + root, 0, 127);
   int oct = degree >= 0 ? degree / n : -((-degree + n - 1) / n);
@@ -103,6 +112,7 @@ struct kristallwuchs : panel_t {
   // ---- panel settings (global, saved via on_serialise_settings) ----
   uint8_t root = 0;
   uint8_t scale_idx = 5; // hirajoshi
+  uint16_t scale = kr_scale_mask(scale_idx);
   uint8_t div_idx = 3;   // 1/16
   bool settings_changed = false;
 
@@ -151,6 +161,18 @@ struct kristallwuchs : panel_t {
   panel_page_t panel_page;
   float fb[3][256] = {};
 
+  enum {
+    HARMONIC_FOLLOW_IGNORE,
+    HARMONIC_FOLLOW_KEY,
+    HARMONIC_FOLLOW_CHORD_NOTES,
+    HARMONIC_FOLLOW_CHORD_SCALE,
+    HARMONIC_FOLLOW_LAST
+  };  
+  uint32_t notehash_last = 0; // for display purposes
+  uint32_t observed_musical_state = 0; // Includes both received changes and our own publications.
+  uint8_t harmonic_follow = HARMONIC_FOLLOW_CHORD_NOTES;
+
+
   // ---------------------------------------------------------------- params
   int div_num() const {
     static const int8_t DIVN[5] = {1, 2, 3, 4, 8};
@@ -195,14 +217,20 @@ struct kristallwuchs : panel_t {
     seed_pos[0] = 7 * 16 + 7;
   }
 
+  void rebuild_scale() { scale = kr_scale_mask(scale_idx); }
+
   void setup_default_panel_state() override {
     panel_t::setup_default_panel_state();
     default_seeds();
     reset_runtime();
+    rebuild_scale();
+    PublishMusicalState();
   }
 
   void on_load_finished() override {
     reset_runtime(); // saved seed layout is kept as-is, including "no seeds" (silent)
+    rebuild_scale();
+    PublishMusicalState();
   }
 
   // ---------------------------------------------------------------- note engine
@@ -349,7 +377,7 @@ struct kristallwuchs : panel_t {
     float dx = (float)(w.x - sx), dy = (float)(w.y - sy);
     float d = kr_sqrt(dx * dx + dy * dy);
     int degree = kr_round(d * 1.3f);
-    uint8_t note = (uint8_t)kr_scale_note(root, scale_idx, degree, KR_BASE_NOTE + OCT[k]);
+    uint8_t note = (uint8_t)kr_scale_note(root, scale, degree, KR_BASE_NOTE + OCT[k]);
     uint8_t vel = (uint8_t)clampi(110 - (int)(d * 5.f) + randi(-8, 8), 40, 120);
     cell[idx] = (uint8_t)(k + 1);
     stick_ms[idx] = sim_us / 1000;
@@ -400,6 +428,7 @@ struct kristallwuchs : panel_t {
 
   void on_sequence(int delta_time_us) override {
     sim_us += (uint32_t)delta_time_us;
+    read_harmonic_state_changes();
     // wind decays over ~4 s
     float wd = clampf(1.f - delta_time_us * 2.5e-7f, 0.f, 1.f);
     wind_x *= wd;
@@ -647,27 +676,44 @@ struct kristallwuchs : panel_t {
   }
 
   // ---------------------------------------------------------------- settings
-  void change_setting(uint8_t &field, int delta, int max_value) {
+  bool change_setting(uint8_t &field, int delta, int max_value) {
     int next = clampi(field + delta, 0, max_value);
-    if (next == field) return;
+    if (next == field) return false;
     field = (uint8_t)next;
     settings_changed = true;
+    return true;
   }
 
   void draw_settings(int page) {
+    on_sequence_lock_guard_t guard;
     static const char *const NOTE_NAMES[12] = {"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"};
     static const char *const SCALE_NAMES[8] = {"maj", "min", "dor", "pent", "mpnt", "hira", "lyd", "phr"};
     static const char *const DIV_NAMES[5] = {"1/4", "1/8", "8T", "1/16", "1/32"};
-    if (page == -1)
-      change_setting(root, draw_system_style_enum_settings_page("root", root, NOTE_NAMES, 12), 11);
-    else if (page == -2)
-      change_setting(scale_idx, draw_system_style_enum_settings_page("scl", scale_idx, SCALE_NAMES, 8), 7);
-    else if (page == -3)
+    static const char *const FOLLOW_NAMES[HARMONIC_FOLLOW_LAST] = {"off", "key", "chrd", "cscl"};
+    if (page == -1) {
+      if (change_setting(root, draw_system_style_enum_settings_page("root", root, NOTE_NAMES, 12), 11)) {
+        PublishMusicalState();
+      }
+    } else if (page == -2) {
+      if (change_setting(scale_idx, draw_system_style_enum_settings_page("scl", scale_idx, SCALE_NAMES, 8), 7)) {
+        rebuild_scale();
+        PublishMusicalState();
+      }
+    } else if (page == -3) {
       change_setting(div_idx, draw_system_style_enum_settings_page("div", div_idx, DIV_NAMES, 5), 4);
+    } else if (page == -4) {
+      // Options how to interpret incoming harmonic state
+      if (change_setting(harmonic_follow, draw_system_style_enum_settings_page("follow", harmonic_follow, FOLLOW_NAMES, HARMONIC_FOLLOW_LAST), HARMONIC_FOLLOW_CHORD_SCALE)) {
+        if(harmonic_follow != HARMONIC_FOLLOW_IGNORE) 
+          observed_musical_state = get_current_musical_state_generation() - 1; // force reevaluation
+        read_harmonic_state_changes();
+        if (harmonic_follow == HARMONIC_FOLLOW_IGNORE) PublishMusicalState();
+      }
+    }
   }
 
   int get_num_pages() override { return 3; } // Play / Sound / Save-Load
-  int get_num_panel_settings_pages() override { return 3; }
+  int get_num_panel_settings_pages() override { return 4; }
 
   // ---------------------------------------------------------------- pages
   // Any page other than Play drops transient touch state so nothing sticks while the pad area is used by widgets.
@@ -697,6 +743,69 @@ struct kristallwuchs : panel_t {
     }
   }
 
+  static inline uint8_t harmonic_key_midi_note(int note) {
+    int pc = note % 12;
+    return (uint8_t)(60 + (pc < 0 ? pc + 12 : pc));
+  }
+
+  void read_harmonic_state_changes(void) {
+    uint32_t generation = get_current_musical_state_generation();
+    if (observed_musical_state == generation) return;
+    observed_musical_state = generation;
+    if (harmonic_follow == HARMONIC_FOLLOW_IGNORE) return;
+    uint8_t incoming_root = harmonic_follow == HARMONIC_FOLLOW_KEY ? current_key : current_chord_root;
+    uint16_t incoming_scale = harmonic_follow == HARMONIC_FOLLOW_KEY ? current_scale :
+        (harmonic_follow == HARMONIC_FOLLOW_CHORD_SCALE ? current_chord_scale : current_chord_notes);
+    incoming_scale &= 0x0fffu;
+    // Keep the last playable harmony through empty incoming chord/gate gaps.
+    if (!incoming_scale) return;
+    root = incoming_root % 12;
+    scale = incoming_scale;
+    // Following changes local pitch mapping only. Preserve the shared song key,
+    // chord and exact incoming voicing (including its inversion and octaves).
+  }
+
+  // Called only for locally authored settings and initial/reset state, never as
+  // an echo of incoming harmony. These scale voicings are held through gate gaps.
+  void PublishMusicalState(void) {
+    uint8_t key = harmonic_key_midi_note(KR_BASE_NOTE + root);
+    set_current_key_and_scale(key, scale);
+    set_current_chord_state(key, scale & 0x0fffu, scale & 0x0fffu);
+    uint8_t voicing[CURRENT_VOICING_MAX_NOTES] = {};
+    int n = mini(scale_num_notes(scale & 0x0fffu), CURRENT_VOICING_MAX_NOTES);
+    for (int i = 0; i < n; ++i)
+      voicing[i] = (uint8_t)clampi(harmonic_key_midi_note(key) + degree_to_note(i, scale), 1, 127);
+    set_current_voicing(voicing, n);
+    observed_musical_state = get_current_musical_state_generation();
+  }
+
+  // Show the last note per lane/slot through gate gaps, avoiding second-screen flicker.
+  // https://plinky12.com/second_screen_app.html
+  void ShowNoteHelpText() {
+    on_sequence_lock_guard_t guard;
+    uint32_t notehash = 0;
+    char buf[64];
+    int charpos = 0;
+
+    int root = current_key % 12;
+    bool acc = KeyToAccidental[0][root];   
+  
+    for (int i = 0; i < KR_GATES; ++i) {
+      if (gates[i].vel >= 16) {
+        notehash = notehash * 7537 + gates[i].note;
+        if (charpos) buf[charpos++] = ' ';
+        midi_note_to_name(gates[i].note, true, buf + charpos, acc);
+        charpos += strlen(buf + charpos);
+      }
+    }
+    if (!charpos) buf[charpos++] = ' ';
+    buf[charpos] = 0;
+    if (notehash != notehash_last) {
+      notehash_last = notehash;
+      set_help_text(buf);
+    }
+  }    
+
   void on_ui(int delta_time_us) override {
     int page = get_scroll_page();
     read_tilt();
@@ -717,6 +826,7 @@ struct kristallwuchs : panel_t {
     } else {
       draw_play_page(delta_time_us);
     }
+    ShowNoteHelpText();
     if (settings_changed) {
       (void)save_settings_to_sd(false);
       settings_changed = false;
@@ -730,6 +840,7 @@ struct kristallwuchs : panel_t {
     FIELD("root", root, 0u, 11u);
     FIELD("scale", scale_idx, 0u, 7u);
     FIELD("div", div_idx, 0u, 4u);
+    FIELD("follow", harmonic_follow, 0u, 3u);
     OBJECT_END(s);
     return true;
   }

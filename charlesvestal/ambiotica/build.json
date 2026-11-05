@@ -1,23 +1,23 @@
 {
   "schema": "community-native-bundle-v5",
-  "artifactKey": "d46994f163b3a21b0dc0f9224402ebb45e57ae9a6a9050794de181be60d451f5",
-  "artifactFilename": "ambiotica_10104f1b6168_fwd94a_v1_1.bin.lzma",
-  "artifactSha256": "296d1f95f57739ff8fd65228f4ecfa128fadfb21590631b589a84e145891380d",
-  "baseSha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
-  "baseFirmwareCode": "d94a",
-  "baseFirmwareGitHash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
-  "firmwareResolved": "d94a",
+  "artifactKey": "34cddf50fc3a87a84b3e2626ed767d18bdf2cac4fcafd8b5f76bd17919abd05e",
+  "artifactFilename": "ambiotica_10104f1b6168_fwd625_v1_1.bin.lzma",
+  "artifactSha256": "550db817994df213b435afbcb5a41577040a19226117dfd8f50228472d30f9d2",
+  "baseSha256": "e70380b02e08223e5fb61e8cb69932eef35b8ba0b8db5c9645206fcd33a86674",
+  "baseFirmwareCode": "d625",
+  "baseFirmwareGitHash": "d625526d8c167ee7b1afff888acc55b50d091517",
+  "firmwareResolved": "d625",
   "bundle": [
     "grid",
     "charlesvestal/ambiotica"
   ],
   "sourceSha1": "10104f1b6168f4be5ad7a227225e6754380947eb",
   "panelVersion": "1.1",
-  "panelCompileHash": "a948859c25fa84ee9a957ca8a00867abda2b166a16ab8c83519a3b95fa75b52c",
-  "gridCompileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd",
-  "linkHash": "eebe049ec0765388a805a616598429f4fa510e3771591ea10c1b30924f7b8110",
+  "panelCompileHash": "0daa368db246c4c3fb6116dbbf5105d917667ed4bb856b15e5cc6e2235c3546a",
+  "gridCompileHash": "b90737b9c6292ce5e4ee1f036ff5785ecb5228a771f3f8ac258cbd7fa3e062a1",
+  "linkHash": "c7e65ce135b66c9e32f6d434f486f10a8d42f02f5034dc6d773972842bf9150f",
   "source": "community-panels/charlesvestal/ambiotica/ambiotica.cpp",
-  "builtAt": "2026-10-25T20:10:38+00:00",
-  "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
-  "baseFirmwareChannel": "stable"
+  "builtAt": "2026-11-05T13:55:32+00:00",
+  "baseFirmwareBuiltAt": "2026-11-04T22:23:13Z",
+  "baseFirmwareChannel": "alpha"
 }

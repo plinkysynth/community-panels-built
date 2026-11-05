@@ -1,23 +1,23 @@
 {
   "schema": "community-native-bundle-v5",
-  "artifactKey": "34c92a6ea7971dbb3f5f5aadf5d23f3b2bc038d6df86a7710cd13359375d1013",
-  "artifactFilename": "tnr_p12_474fa8b8609f_fwd94a.bin.lzma",
-  "artifactSha256": "a8ec47f85405399a03c340d5e9ad0adc9a1e510e9d6edab3b098f6af8f2c567c",
-  "baseSha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
-  "baseFirmwareCode": "d94a",
-  "baseFirmwareGitHash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
-  "firmwareResolved": "d94a",
+  "artifactKey": "fc34db0f8ed915acc47585d4ed6b4c71a5318695d511f1755f1d00048a98f337",
+  "artifactFilename": "tnr_p12_474fa8b8609f_fwd625.bin.lzma",
+  "artifactSha256": "76ba3cbdfba8e7c7771d2151be884bedd814c41db5b4ae615ef195efb4024f06",
+  "baseSha256": "e70380b02e08223e5fb61e8cb69932eef35b8ba0b8db5c9645206fcd33a86674",
+  "baseFirmwareCode": "d625",
+  "baseFirmwareGitHash": "d625526d8c167ee7b1afff888acc55b50d091517",
+  "firmwareResolved": "d625",
   "bundle": [
     "grid",
     "okyeron/tnr_p12"
   ],
   "sourceSha1": "474fa8b8609fc885b1a14a39bbb11bf7a5c3a6f4",
   "panelVersion": "",
-  "panelCompileHash": "40237f5d427d5e4b5d879ab0417b852606d956aadd9423fba7eed7bb63dc5f81",
-  "gridCompileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd",
-  "linkHash": "40ded602a9de1e7aea06ecb6c6471c9a78001dd3636fccb3fd82038abf76e4ec",
+  "panelCompileHash": "b2ba19f5b3fff3546711b837d37ed0935cf94fa6a31c9edb82f90eb763b5b0f9",
+  "gridCompileHash": "b90737b9c6292ce5e4ee1f036ff5785ecb5228a771f3f8ac258cbd7fa3e062a1",
+  "linkHash": "831eb89493adcdd4149d5a9e5755b800746db6c2a8b9d7d0587656642bf315a7",
   "source": "community-panels/okyeron/tnr_p12/tenori_on.cpp",
-  "builtAt": "2026-10-25T20:10:53+00:00",
-  "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
-  "baseFirmwareChannel": "stable"
+  "builtAt": "2026-11-05T13:55:47+00:00",
+  "baseFirmwareBuiltAt": "2026-11-04T22:23:13Z",
+  "baseFirmwareChannel": "alpha"
 }

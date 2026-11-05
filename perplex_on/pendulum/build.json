@@ -1,23 +1,23 @@
 {
   "schema": "community-native-bundle-v5",
-  "artifactKey": "e2551c4ba7342041708ce5bd80342dc98f0d80f3f9f54db36e2a7826b2b2f4b2",
-  "artifactFilename": "pendulum_7420c910e9a5_fwd94a.bin.lzma",
-  "artifactSha256": "f3db88402aa8f9f74729de8eba6d39291ec541b97517683c373ec9d189ecfbd7",
-  "baseSha256": "7903c544f2fd9616fef6c337820b1c148c991b1f33d823cdcdaeabd9fccc4abf",
-  "baseFirmwareCode": "d94a",
-  "baseFirmwareGitHash": "d94af2a07b325af6a5e87e046ce1c1e8aa182a5c",
-  "firmwareResolved": "d94a",
+  "artifactKey": "b12471b150ab92f8f72ed88354fa6a8a1c3668da50488483e89593124d5b7cda",
+  "artifactFilename": "pendulum_86ab5bfd603d_fwd625.bin.lzma",
+  "artifactSha256": "34bae313f65bf4a407053305a285616d3a1a00e5d81ec6e13ba53e30759e8c9e",
+  "baseSha256": "e70380b02e08223e5fb61e8cb69932eef35b8ba0b8db5c9645206fcd33a86674",
+  "baseFirmwareCode": "d625",
+  "baseFirmwareGitHash": "d625526d8c167ee7b1afff888acc55b50d091517",
+  "firmwareResolved": "d625",
   "bundle": [
     "grid",
     "perplex_on/pendulum"
   ],
-  "sourceSha1": "7420c910e9a5bd345c8ac7a295fa3b143fe8f02c",
+  "sourceSha1": "86ab5bfd603d6d3603c5bdca173cd909a0375c5f",
   "panelVersion": "",
-  "panelCompileHash": "28fc93d4531311bce417945a977185b8acbf5d0d87c5af8f5c9ad0d5e2d1b586",
-  "gridCompileHash": "b77992e6bbc71927bcf3d3796064f015c63592b241f3daed22f3acbe1c25d8fd",
-  "linkHash": "a7db4dc557d71ed127678c7eca6f174931cf6e983f5905d972ed3a2f3df1ed8c",
+  "panelCompileHash": "cd9b03652fffa9743decda5c470704e0b25521239be39fdecf4f8d3df38f16ff",
+  "gridCompileHash": "b90737b9c6292ce5e4ee1f036ff5785ecb5228a771f3f8ac258cbd7fa3e062a1",
+  "linkHash": "865bbec0b82219792d7fc6dd335e088a77cc30063cbf3a6d5a47561c55ea18a3",
   "source": "community-panels/perplex_on/pendulum/pendulum.cpp",
-  "builtAt": "2026-10-25T20:10:58+00:00",
-  "baseFirmwareBuiltAt": "2026-10-22T09:38:08Z",
-  "baseFirmwareChannel": "stable"
+  "builtAt": "2026-11-05T13:55:55+00:00",
+  "baseFirmwareBuiltAt": "2026-11-04T22:23:13Z",
+  "baseFirmwareChannel": "alpha"
 }
