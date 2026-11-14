@@ -56,6 +56,16 @@
           "grid",
           "charlesvestal/ambiotica"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "charlesvestal/ambiotica",
+            "sourceSha1": "ef735881a4c186af10e3367538768dba6206b098"
+          }
+        ],
         "_native_source_sha1": "ef735881a4c186af10e3367538768dba6206b098",
         "_native_artifact_status": "current",
         "_native_compile_hash": "b8acc02c3bb49f28ef2d93e7cdced0649703e1ba45be798eadb78b9fe701bb03",
@@ -100,6 +110,16 @@
           "grid",
           "charlesvestal/life"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "charlesvestal/life",
+            "sourceSha1": "c16cbe8d682199072202a0abb2f8f8676a52cc8f"
+          }
+        ],
         "_native_source_sha1": "c16cbe8d682199072202a0abb2f8f8676a52cc8f",
         "_native_artifact_status": "current",
         "_native_compile_hash": "3dac9e7bf3373f8515b09511a566d806de9cf538bccf6eafcc19ed9bd5f5eea1",
@@ -138,6 +158,16 @@
         "_native_bundle": [
           "grid",
           "mmalex/looper"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "mmalex/looper",
+            "sourceSha1": "ad1b337c376c5858ad55c644486e7c9ed3d810de"
+          }
         ],
         "_native_source_sha1": "ad1b337c376c5858ad55c644486e7c9ed3d810de",
         "_native_artifact_status": "current",
@@ -179,6 +209,16 @@
           "grid",
           "mmalex/mpe_test"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "mmalex/mpe_test",
+            "sourceSha1": "ce3843c8d79810bcb40b4ae5f9adc66b1ac0623d"
+          }
+        ],
         "_native_source_sha1": "ce3843c8d79810bcb40b4ae5f9adc66b1ac0623d",
         "_native_artifact_status": "current",
         "_native_compile_hash": "2e362bba2a94965c878f464219aa01ad46f6d07315b338810f1ee7b3a496f35b",
@@ -217,6 +257,16 @@
         "_native_bundle": [
           "grid",
           "mmalex/worm"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "mmalex/worm",
+            "sourceSha1": "5189f97de415b545d4168ed5ab1a3c5ac7236254"
+          }
         ],
         "_native_source_sha1": "5189f97de415b545d4168ed5ab1a3c5ac7236254",
         "_native_artifact_status": "current",
@@ -259,6 +309,16 @@
           "grid",
           "mmalex/zone_plate"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "mmalex/zone_plate",
+            "sourceSha1": "bad453cffa64f53794c090b62877b6373262721e"
+          }
+        ],
         "_native_source_sha1": "bad453cffa64f53794c090b62877b6373262721e",
         "_native_artifact_status": "current",
         "_native_compile_hash": "26c948bc01126056707984f895ca705ef40d08c1ec80867d0d32444243d8dd67",
@@ -299,6 +359,16 @@
         "_native_bundle": [
           "grid",
           "okyeron/tnr_p12"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "okyeron/tnr_p12",
+            "sourceSha1": "9f940fca3d6a873dfe1e88b069aa4e904f52bef2"
+          }
         ],
         "_native_source_sha1": "9f940fca3d6a873dfe1e88b069aa4e904f52bef2",
         "_native_artifact_status": "current",
@@ -341,6 +411,16 @@
         "_native_bundle": [
           "grid",
           "perplex_on/arcade_12"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "perplex_on/arcade_12",
+            "sourceSha1": "05069aa5a3738cc01e446093bfb4b0aecd3013f9"
+          }
         ],
         "_native_source_sha1": "05069aa5a3738cc01e446093bfb4b0aecd3013f9",
         "_native_artifact_status": "current",
@@ -400,6 +480,28 @@
           "perplex_on/spiegel_12",
           "perplex_on/arcade_12"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "perplex_on/pendulum",
+            "sourceSha1": "aa8559a77a0da0e266b68bb8750671d11f5ef4ad"
+          },
+          {
+            "id": "perplex_on/kristallwuchs",
+            "sourceSha1": "932709ef0d7008acff025113e13bee1a829c2c6c"
+          },
+          {
+            "id": "perplex_on/spiegel_12",
+            "sourceSha1": "797e9656510dbc7546cc3bf4f5de9e1da80302f6"
+          },
+          {
+            "id": "perplex_on/arcade_12",
+            "sourceSha1": "05069aa5a3738cc01e446093bfb4b0aecd3013f9"
+          }
+        ],
         "_native_source_sha1": "a75a73a373ecd9ba923bbc3f50b239ad28455574",
         "_native_artifact_status": "current",
         "_native_compile_hash": "95675f6e4aa036b342568cf463405cdd0b5f8616c2af9018d809638936353128",
@@ -440,6 +542,16 @@
         "_native_bundle": [
           "grid",
           "perplex_on/kristallwuchs"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "perplex_on/kristallwuchs",
+            "sourceSha1": "932709ef0d7008acff025113e13bee1a829c2c6c"
+          }
         ],
         "_native_source_sha1": "932709ef0d7008acff025113e13bee1a829c2c6c",
         "_native_artifact_status": "current",
@@ -482,6 +594,16 @@
           "grid",
           "perplex_on/pendulum"
         ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "perplex_on/pendulum",
+            "sourceSha1": "aa8559a77a0da0e266b68bb8750671d11f5ef4ad"
+          }
+        ],
         "_native_source_sha1": "aa8559a77a0da0e266b68bb8750671d11f5ef4ad",
         "_native_artifact_status": "current",
         "_native_compile_hash": "341f0025ff5ffd95dfdde750db51a7157b9a15ced2b0dbbae20de2e9a1066cd0",
@@ -522,6 +644,16 @@
         "_native_bundle": [
           "grid",
           "perplex_on/spiegel_12"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "perplex_on/spiegel_12",
+            "sourceSha1": "797e9656510dbc7546cc3bf4f5de9e1da80302f6"
+          }
         ],
         "_native_source_sha1": "797e9656510dbc7546cc3bf4f5de9e1da80302f6",
         "_native_artifact_status": "current",
@@ -564,6 +696,16 @@
         "_native_bundle": [
           "grid",
           "vrcvs/qu4ttro"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "vrcvs/qu4ttro",
+            "sourceSha1": "c3635d69051712c35be9c0d897e43babea780a8a"
+          }
         ],
         "_native_source_sha1": "c3635d69051712c35be9c0d897e43babea780a8a",
         "_native_artifact_status": "current",
