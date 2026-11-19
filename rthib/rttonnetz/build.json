@@ -1,0 +1,23 @@
+{
+  "schema": "community-native-bundle-v5",
+  "artifactKey": "39b927430408c8488e13643ebe2d7daa4c5fa00301a62906c9fbdeaa717b02fd",
+  "artifactFilename": "rttonnetz_29d6ae8ee740_fwd1d2.bin.lzma",
+  "artifactSha256": "eac5420f7d5ed6b1b51ca2052240365d26ac8700ce63d5f8a8bc0ede1b9d1806",
+  "baseSha256": "47be043bcc053d08dd01385f13dee18f3e8a5dbd6e552ffc82f0d62725b7eb4f",
+  "baseFirmwareCode": "d1d2",
+  "baseFirmwareGitHash": "d1d2fdb16c82c838a7be2e895193d49be928ffa2",
+  "firmwareResolved": "d1d2",
+  "bundle": [
+    "grid",
+    "rthib/rttonnetz"
+  ],
+  "sourceSha1": "29d6ae8ee740ca0700aa5bf2ff1d40244e031793",
+  "panelVersion": "",
+  "panelCompileHash": "9de91ea616b33ffab7854b6bd80dc4230c4bb325f3983e883e80aa119d851099",
+  "gridCompileHash": "d1b14c655f5d10bee60348ed71590c8d91d2bd5b6caee1d6220e2e11e260102e",
+  "linkHash": "5c1775c9d1a66158cf55ea4fb167c59603894888d906a4c26ad56eb2841b91e6",
+  "source": "community-panels/rthib/rttonnetz/rttonnetz.cpp",
+  "builtAt": "2026-11-19T09:52:52+00:00",
+  "baseFirmwareBuiltAt": "2026-11-16T17:00:26Z",
+  "baseFirmwareChannel": "alpha"
+}
