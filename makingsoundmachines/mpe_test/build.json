@@ -1,6 +1,6 @@
 {
   "schema": "community-native-bundle-v5",
-  "artifactKey": "6a0d079619e4065c5a0955e7b2b2d612e5d652fd5eaaed6cb59dbe9976005791",
+  "artifactKey": "db9906366cea4ba0fd9a2d0a1a08a19558a9cd5491b2442c122aeb35e6bcd086",
   "artifactFilename": "mpe_test_cbe2e1973a72_fw072c.bin.lzma",
   "artifactSha256": "5430659d532f60eafae59d26512a288c04857159aa215b803d174af82c81edab",
   "baseSha256": "02a743eab1e8dc3bb2ecfbfbde61f69021295f4429c8fefd62dba94abb3efa78",
@@ -9,15 +9,15 @@
   "firmwareResolved": "072c",
   "bundle": [
     "grid",
-    "mmalex/mpe_test"
+    "makingsoundmachines/mpe_test"
   ],
   "sourceSha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1",
   "panelVersion": "",
-  "panelCompileHash": "c3f80a9e49ac9f5a4d2d984dac03351f8bf01fddb55efde537aaea66345f683a",
+  "panelCompileHash": "8bcdf31edabee2c55fe4c0b8ef4c4be24c406965129416d37d0eec19600b81ee",
   "gridCompileHash": "865514897c9c34abbb3ce0de683356ee53456f24aed4832288a48e080be810d0",
-  "linkHash": "f431235c1ae890d1160739cb6ac932460ee781214f25a63b5635b566732380ba",
-  "source": "community-panels/mmalex/mpe_test/mpe_test.cpp",
-  "builtAt": "2026-11-19T12:09:15+00:00",
+  "linkHash": "3ecca050c02be5cc4b6bfa6114ae85e13ec3ca319a26345ae3cfe216d8035a65",
+  "source": "community-panels/makingsoundmachines/mpe_test/mpe_test.cpp",
+  "builtAt": "2026-11-19T12:31:26+00:00",
   "baseFirmwareBuiltAt": "2026-11-19T11:34:57Z",
   "baseFirmwareChannel": "alpha"
 }

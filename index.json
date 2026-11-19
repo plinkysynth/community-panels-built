@@ -131,6 +131,55 @@
         "_native_compile_hash": "9a7e6ab0d20adc1f3036fa4f6a7167bc7b2fbbd0c2e309a49708cc1af00c93ec",
         "_native_grid_compile_hash": "865514897c9c34abbb3ce0de683356ee53456f24aed4832288a48e080be810d0"
       },
+      "makingsoundmachines/mpe_test": {
+        "Author": "makingsoundmachines",
+        "Date": "2026-11-19",
+        "Tags": "midi",
+        "name": "MPE Surface",
+        "description": "A configurable MPE play surface for Plinky 12, based on mmalex's MPE Test. Two play surfaces (A and B), each with a dedicated brightness (CC74) slider mapped to Plinky's sample-start / wavetable-position parameter. It accepts normal MIDI on channels 1 and 16 for the two sounds, as well as MPE for up to two zones, supporting per-note pitch bend, brightness, and pressure. It also sends data in MPE format. The mode pads below the play surfaces open the usual synth edit and preset load/save pages, using the same parameter order as Toadstep and Blocks. Click the right-up button for the settings pages: root note, scale, string stride (semitones between strings; snapped to the scale on a scale surface, exact on a chromatic one), surface (scale: every pad is a scale note; chromatic: every pad is a semitone and only scale notes are lit), string direction, how the surface is split between A and B, start (root: the lowest string starts on the root; fix: it starts on the scale note nearest C1, or on C1 itself on a chromatic surface), and glide. Settings are saved with the song.",
+        "_library_kind": "community",
+        "_cpp": "COMMUNITY_PANELS/makingsoundmachines/mpe_test/mpe_test.cpp",
+        "_source_sha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1",
+        "_panel_name": "mpe_test",
+        "_source": "community-panels/makingsoundmachines/mpe_test/mpe_test.cpp",
+        "_author_slug": "makingsoundmachines",
+        "_panel_slug": "mpe_test",
+        "_community_id": "makingsoundmachines/mpe_test",
+        "_community_path": "community/makingsoundmachines/mpe_test/",
+        "_readme": "COMMUNITY_PANELS/makingsoundmachines/mpe_test/README.md",
+        "artwork": "COMMUNITY_PANELS/makingsoundmachines/mpe_test/artwork.png",
+        "_lzma": "COMMUNITY_PANELS/makingsoundmachines/mpe_test/mpe_test_cbe2e1973a72_fw072c.bin.lzma",
+        "_native_artifact_schema": "community-native-bundle-v5",
+        "_native_artifact_sha256": "5430659d532f60eafae59d26512a288c04857159aa215b803d174af82c81edab",
+        "_native_artifact_key": "db9906366cea4ba0fd9a2d0a1a08a19558a9cd5491b2442c122aeb35e6bcd086",
+        "_native_artifact_filename": "mpe_test_cbe2e1973a72_fw072c.bin.lzma",
+        "_native_link_hash": "3ecca050c02be5cc4b6bfa6114ae85e13ec3ca319a26345ae3cfe216d8035a65",
+        "_native_base_sha256": "02a743eab1e8dc3bb2ecfbfbde61f69021295f4429c8fefd62dba94abb3efa78",
+        "_native_base_firmware_code": "072c",
+        "_native_base_firmware_git_hash": "072c348dc3c990c03d4b6e44ee0da656052cf04e",
+        "_native_built_at": "2026-11-19T12:31:26+00:00",
+        "_native_firmware_built_at": "2026-11-19T11:34:57Z",
+        "_native_firmware_channel": "alpha",
+        "_native_firmware_resolved": "072c",
+        "_native_bundle": [
+          "grid",
+          "makingsoundmachines/mpe_test"
+        ],
+        "_native_sources": [
+          {
+            "id": "grid",
+            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
+          },
+          {
+            "id": "makingsoundmachines/mpe_test",
+            "sourceSha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1"
+          }
+        ],
+        "_native_source_sha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1",
+        "_native_artifact_status": "current",
+        "_native_compile_hash": "8bcdf31edabee2c55fe4c0b8ef4c4be24c406965129416d37d0eec19600b81ee",
+        "_native_grid_compile_hash": "865514897c9c34abbb3ce0de683356ee53456f24aed4832288a48e080be810d0"
+      },
       "mmalex/looper": {
         "Author": "mmalex",
         "Tags": "looper",
@@ -178,56 +227,6 @@
         "_native_source_sha1": "ad1b337c376c5858ad55c644486e7c9ed3d810de",
         "_native_artifact_status": "current",
         "_native_compile_hash": "c6d0524c9a6ec4d943027249aa3e282139ecb0e2d104229f495ae20c8b7a65b3",
-        "_native_grid_compile_hash": "865514897c9c34abbb3ce0de683356ee53456f24aed4832288a48e080be810d0"
-      },
-      "mmalex/mpe_test": {
-        "Author": "makingsoundmachines",
-        "Date": "2026-11-19",
-        "Tags": "midi",
-        "name": "MPE Surface",
-        "description": "A configurable MPE play surface for Plinky 12, based on mmalex's MPE Test. Two play surfaces (A and B), each with a dedicated brightness (CC74) slider mapped to Plinky's sample-start / wavetable-position parameter. It accepts normal MIDI on channels 1 and 16 for the two sounds, as well as MPE for up to two zones, supporting per-note pitch bend, brightness, and pressure. It also sends data in MPE format. The mode pads below the play surfaces open the usual synth edit and preset load/save pages, using the same parameter order as Toadstep and Blocks. Click the right-up button for the settings pages: root note, scale, string stride (semitones between strings; snapped to the scale on a scale surface, exact on a chromatic one), surface (scale: every pad is a scale note; chromatic: every pad is a semitone and only scale notes are lit), string direction, how the surface is split between A and B, start (root: the lowest string starts on the root; fix: it starts on the scale note nearest C1, or on C1 itself on a chromatic surface), and glide. Settings are saved with the song.",
-        "_library_kind": "community",
-        "_cpp": "COMMUNITY_PANELS/mmalex/mpe_test/mpe_test.cpp",
-        "_source_sha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1",
-        "_panel_name": "mpe_test",
-        "_source": "community-panels/mmalex/mpe_test/mpe_test.cpp",
-        "_author_slug": "mmalex",
-        "_panel_slug": "mpe_test",
-        "_community_id": "mmalex/mpe_test",
-        "_community_path": "community/mmalex/mpe_test/",
-        "_readme": "COMMUNITY_PANELS/mmalex/mpe_test/README.md",
-        "_author_readme": "COMMUNITY_PANELS/mmalex/README.md",
-        "artwork": "COMMUNITY_PANELS/mmalex/mpe_test/artwork.png",
-        "_lzma": "COMMUNITY_PANELS/mmalex/mpe_test/mpe_test_cbe2e1973a72_fw072c.bin.lzma",
-        "_native_artifact_schema": "community-native-bundle-v5",
-        "_native_artifact_sha256": "5430659d532f60eafae59d26512a288c04857159aa215b803d174af82c81edab",
-        "_native_artifact_key": "6a0d079619e4065c5a0955e7b2b2d612e5d652fd5eaaed6cb59dbe9976005791",
-        "_native_artifact_filename": "mpe_test_cbe2e1973a72_fw072c.bin.lzma",
-        "_native_link_hash": "f431235c1ae890d1160739cb6ac932460ee781214f25a63b5635b566732380ba",
-        "_native_base_sha256": "02a743eab1e8dc3bb2ecfbfbde61f69021295f4429c8fefd62dba94abb3efa78",
-        "_native_base_firmware_code": "072c",
-        "_native_base_firmware_git_hash": "072c348dc3c990c03d4b6e44ee0da656052cf04e",
-        "_native_built_at": "2026-11-19T12:09:15+00:00",
-        "_native_firmware_built_at": "2026-11-19T11:34:57Z",
-        "_native_firmware_channel": "alpha",
-        "_native_firmware_resolved": "072c",
-        "_native_bundle": [
-          "grid",
-          "mmalex/mpe_test"
-        ],
-        "_native_sources": [
-          {
-            "id": "grid",
-            "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613"
-          },
-          {
-            "id": "mmalex/mpe_test",
-            "sourceSha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1"
-          }
-        ],
-        "_native_source_sha1": "cbe2e1973a7205f3764d140dc9fb9d61931e5cb1",
-        "_native_artifact_status": "current",
-        "_native_compile_hash": "c3f80a9e49ac9f5a4d2d984dac03351f8bf01fddb55efde537aaea66345f683a",
         "_native_grid_compile_hash": "865514897c9c34abbb3ce0de683356ee53456f24aed4832288a48e080be810d0"
       },
       "mmalex/worm": {
