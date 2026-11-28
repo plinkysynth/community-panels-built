@@ -1,12 +1,12 @@
 {
   "schema": "community-native-bundle-v5",
-  "artifactKey": "9c04bdf6876fac6ae3e630c755ab108e82fb2df3e5b01f6398b3d484f88fc599",
-  "artifactFilename": "collection_a75a73a373ec_fwfade.bin.lzma",
-  "artifactSha256": "8e7e267d278905a222b09f0151e459f3a684cdf288f88a4584336da3d4c369d5",
-  "baseSha256": "d71ab1bd6e7e0cc6ce58f0ac31101640b30c2c9c3facd58301b2506881ff1414",
-  "baseFirmwareCode": "fade",
-  "baseFirmwareGitHash": "fade1faa09689ea71e350db52c684244722b3db4",
-  "firmwareResolved": "fade",
+  "artifactKey": "664f01823bc89c37f64092d125902864b7912fd9460213bd7ce463e67b518865",
+  "artifactFilename": "collection_a75a73a373ec_fw66f8.bin.lzma",
+  "artifactSha256": "1353499597802549cd1f02d9acd5e8d2bdcbb17cb1a1fc8ab13e668409b3646f",
+  "baseSha256": "91444c491718a4c3d4972dc6ddf5e541c55bbf4df0b22b967998dbfed60ae8ed",
+  "baseFirmwareCode": "66f8",
+  "baseFirmwareGitHash": "66f8c637e73342f41fba75b0daeb511ea0934722",
+  "firmwareResolved": "66f8",
   "bundle": [
     "grid",
     "perplex_on/pendulum",
@@ -16,38 +16,38 @@
   ],
   "sourceSha1": "a75a73a373ecd9ba923bbc3f50b239ad28455574",
   "panelVersion": "",
-  "panelCompileHash": "9c04bdf6876fac6ae3e630c755ab108e82fb2df3e5b01f6398b3d484f88fc599",
-  "gridCompileHash": "e9fd6f818aed9d60bf6bbd9151e592eabcf60480a40b78bf129ed29a49185e28",
-  "linkHash": "ac8f7e167ef44568f9f14810827ccd1377f10463cf36f980219a773e34df74dd",
+  "panelCompileHash": "664f01823bc89c37f64092d125902864b7912fd9460213bd7ce463e67b518865",
+  "gridCompileHash": "c7e237352b5cafb1a284c80fa87ab58d573765b06df10d2c15f5ee8d161763ce",
+  "linkHash": "bb4957437e33b2753f02d98e880dc0d84ba775a59e0b9ef9ef4668a6e22d1c86",
   "source": "community-panels/perplex_on/collection/pack.json",
-  "builtAt": "2026-11-23T19:56:31+00:00",
-  "baseFirmwareBuiltAt": "2026-11-23T19:12:17Z",
+  "builtAt": "2026-11-28T17:32:23+00:00",
+  "baseFirmwareBuiltAt": "2026-11-25T22:11:53Z",
   "baseFirmwareChannel": "alpha",
   "members": [
     {
       "id": "grid",
       "sourceSha1": "bf2245c1ba1b9ba232eaa2b55f4e9b88c82a2613",
-      "compileHash": "e9fd6f818aed9d60bf6bbd9151e592eabcf60480a40b78bf129ed29a49185e28"
+      "compileHash": "c7e237352b5cafb1a284c80fa87ab58d573765b06df10d2c15f5ee8d161763ce"
     },
     {
       "id": "perplex_on/pendulum",
       "sourceSha1": "aa8559a77a0da0e266b68bb8750671d11f5ef4ad",
-      "compileHash": "656b0862040c58ae3b9f4eb58b4872e72bcfeab43650b901af6983b654cc20f1"
+      "compileHash": "03141725e08f0426bd5bffa374aa18ef43fa9c8fcb1292c0deeac57b0ee77c04"
     },
     {
       "id": "perplex_on/kristallwuchs",
       "sourceSha1": "932709ef0d7008acff025113e13bee1a829c2c6c",
-      "compileHash": "7a7b006c1f90461d040787f12874d01eacb3f2dbcf0d8be972ca9cebf100a8d9"
+      "compileHash": "fe2a09c3e2bd447dea8514513280ccbf8ad63def012c7d7b621319cd5dbb001e"
     },
     {
       "id": "perplex_on/spiegel_12",
       "sourceSha1": "797e9656510dbc7546cc3bf4f5de9e1da80302f6",
-      "compileHash": "2c7b7661dcd3446e970a399421512a306a326145c7b57e30ed7909612b4b70d9"
+      "compileHash": "64635fc598973e236027991ad29ca459f34f77005084ea262163d512b46d60ff"
     },
     {
       "id": "perplex_on/arcade_12",
       "sourceSha1": "05069aa5a3738cc01e446093bfb4b0aecd3013f9",
-      "compileHash": "3afc973c1aa0e6b35d42615b7793621cfa6da753b8ef0f8350b487e4a33bb490"
+      "compileHash": "070b2d636dbe08c5c43bfa8a614750c199b91624c50abfb3c18656f6379f86c2"
     }
   ]
 }
